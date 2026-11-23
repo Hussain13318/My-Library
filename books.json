@@ -1,127 +1,1982 @@
 [
-  {"title":"Dreams from My Father","author":"Barack Obama","genre":"Biographies & Memoirs","description":"Barack Obama's memoir about family, race, identity, and finding his place in America.","coverImage":"Images/Dreams from My Father.jpg"},
-  {"title":"Daughter of the East","author":"Benazir Bhutto","genre":"Biographies & Memoirs","description":"Benazir Bhutto's autobiography about her family, political life, and Pakistan.","coverImage":"Images/Daughter of the East.jpg"},
-  {"title":"Ali: A Life","author":"Jonathan Eig","genre":"Biographies & Memoirs","description":"A detailed biography of boxer and activist Muhammad Ali.","coverImage":"Images/Ali A Life.jpg"},
-  {"title":"Elon Musk","author":"Ashlee Vance","genre":"Biographies & Memoirs","description":"A biography of entrepreneur and technology leader Elon Musk.","coverImage":"Images/Elon Musk.jpg"},
-  {"title":"Pablo Escobar: My Brother","author":"Roberto Escobar","genre":"Biographies & Memoirs","description":"Roberto Escobar's memoir about his brother Pablo and the Medellin cartel.","coverImage":"Images/Pablo Escobar My Brother.jpg"},
-  {"title":"Think and Grow Rich","author":"Napoleon Hill","genre":"Self-Help & Personal Development","description":"A classic guide to achievement built around mindset, persistence, and focused goals.","coverImage":"Images/Think and Grow Rich.jpg"},
-  {"title":"Atomic Habits","author":"James Clear","genre":"Self-Help & Personal Development","description":"A practical framework for building good habits and breaking bad ones through small changes.","coverImage":"Images/atomic habits.webp"},
-  {"title":"The Subtle Art of Not Giving a F*ck","author":"Mark Manson","genre":"Self-Help & Personal Development","description":"A candid argument for choosing meaningful values and accepting life's limits.","coverImage":"Images/The Subtle Art of Not Giving a Fck.jpg"},
-  {"title":"Everything Is F*cked","author":"Mark Manson","genre":"Self-Help & Personal Development","description":"A reflection on hope, suffering, and finding meaning in a difficult modern world.","coverImage":"Images/Everything Is Fcked.png"},
-  {"title":"The 7 Habits of Highly Effective People","author":"Stephen Covey","genre":"Self-Help & Personal Development","description":"A principles-based framework for personal effectiveness and lasting relationships.","coverImage":"Images/The 7 Habits of Highly Effective People.jpg"},
-  {"title":"Psycho-Cybernetics","author":"Maxwell Maltz","genre":"Self-Help & Personal Development","description":"A classic exploration of self-image and how it influences behavior and success.","coverImage":"Images/Psycho-Cybernetics.jpg"},
-  {"title":"Ego Is the Enemy","author":"Ryan Holiday","genre":"Self-Help & Personal Development","description":"A Stoic examination of how ego can obstruct ambition, success, and resilience.","coverImage":"Images/Ego is enemy.jpg"},
-  {"title":"The Monk Who Sold His Ferrari","author":"Robin Sharma","genre":"Self-Help & Personal Development","description":"A motivational fable about purpose, discipline, and a simpler life.","coverImage":"Images/The Monk Who Sold His Ferrari.jpg"},
-  {"title":"How to Win Friends and Influence People","author":"Dale Carnegie","genre":"Self-Help & Personal Development","description":"Practical advice for communicating well and building positive relationships.","coverImage":"Images/How to Win Friends and Influence People.jpg"},
-  {"title":"How to Stop Worrying and Start Living","author":"Dale Carnegie","genre":"Self-Help & Personal Development","description":"Techniques for managing worry and living with greater calm and purpose.","coverImage":"Images/How to Stop Worrying and Start Living.jpg"},
-  {"title":"Can't Hurt Me","author":"David Goggins","genre":"Self-Help & Personal Development","description":"David Goggins's memoir about overcoming hardship through mental toughness and discipline.","coverImage":"Images/Can't Hurt Me.jpg"},
-  {"title":"Deep Work","author":"Cal Newport","genre":"Self-Help & Personal Development","description":"A case for focused, distraction-free work in an increasingly connected world.","coverImage":"Images/Deep work.jpg"},
-  {"title":"The Compound Effect","author":"Darren Hardy","genre":"Self-Help & Personal Development","description":"A guide to how small, consistent choices compound into significant results.","coverImage":"Images/The Compound Effect.jpg"},
-  {"title":"The 80/20 Principle","author":"Richard Koch","genre":"Self-Help & Personal Development","description":"An application of the Pareto principle to work, business, and everyday life.","coverImage":"Images/The 80 20 Principle.jpg"},
-  {"title":"Do Epic Sh*t","author":"Ankur Warikoo","genre":"Self-Help & Personal Development","description":"Ankur Warikoo's collection of practical reflections on work, life, and ambition.","coverImage":"Images/Do Epic Shit.jpg"},
-  {"title":"The Mountain Is You","author":"Brianna Wiest","genre":"Self-Help & Personal Development","description":"An exploration of self-sabotage and the inner work needed for self-mastery.","coverImage":"Images/The Mountain Is You.jpg"},
-  {"title":"Rich Dad Poor Dad","author":"Robert Kiyosaki","genre":"Business & Money","description":"A personal-finance book contrasting different attitudes toward money and investing.","coverImage":"Images/Rich Dad Poor Dad.jpg"},
-  {"title":"Zero to One","author":"Peter Thiel","genre":"Business & Money","description":"Peter Thiel's argument for creating new businesses through innovation and monopoly.","coverImage":"Images/Zero to One.jpg"},
-  {"title":"The Psychology of Money","author":"Morgan Housel","genre":"Business & Money","description":"Behavioral lessons about how people think, feel, and act around money.","coverImage":"Images/The Psychology of Money.jpg"},
-  {"title":"The 48 Laws of Power","author":"Robert Greene","genre":"Psychology & Influence","description":"Historical observations about power, strategy, and human behavior.","coverImage":"Images/The 48 Laws of Power.png"},
-  {"title":"The Laws of Human Nature","author":"Robert Greene","genre":"Psychology & Influence","description":"An examination of recurring human motives, emotions, and social behavior.","coverImage":"Images/The Laws of Human Nature.jpg"},
-  {"title":"The Art of Reading Minds","author":"Henrik Fexeus","genre":"Psychology & Influence","description":"An introduction to reading body language and social signals.","coverImage":"Images/The Art of Reading Minds.jpg"},
-  {"title":"Dark Psychology Secrets","author":"Daniel Walter","genre":"Psychology & Influence","description":"An overview of manipulative behavior, persuasion, and psychological influence.","coverImage":"Images/Dark Psychology.jpg"},
-  {"title":"The Power of Your Subconscious Mind","author":"Joseph Murphy","genre":"Psychology & Influence","description":"A mind-and-belief approach to changing habits and pursuing personal goals.","coverImage":"Images/The Power of Your Subconscious Mind.jpg"},
-  {"title":"Pakistan's Nuclear Deterrence","author":"Zamir Akram","genre":"History, Politics & Geopolitics","description":"An analysis of Pakistan's nuclear strategy and deterrence policy.","coverImage":"Images/Pakistan's Nuclear Deterrence.jpg"},
-  {"title":"Pakistan Crossroads","author":"Tariq Rahman","genre":"History, Politics & Geopolitics","description":"A study of Pakistan's political history and competing directions.","coverImage":"Images/Pakistan Crossroads.jpg"},
-  {"title":"The China-Pakistan Axis","author":"Andrew Small","genre":"History, Politics & Geopolitics","description":"An account of the strategic relationship between China and Pakistan.","coverImage":"Images/The China-Pakistan Axis.jpg"},
-  {"title":"Cold War in the Islamic World","author":"Dilip Hiro","genre":"History, Politics & Geopolitics","description":"A history of rivalry and conflict in the Islamic world, especially Saudi-Iran relations.","coverImage":"Images/Cold War in the Islamic World.jpg"},
-  {"title":"Pakistan Under Siege","author":"Madiha Afzal","genre":"History, Politics & Geopolitics","description":"An examination of Pakistan's internal political, security, and social pressures.","coverImage":"Images/Pakistan Under Siege.jpg"},
-  {"title":"The Nine Lives of Pakistan","author":"Declan Walsh","genre":"History, Politics & Geopolitics","description":"A journalistic account of Pakistan's turbulent political history.","coverImage":"Images/The Nine Lives of Pakistan.jpg"},
-  {"title":"Freedom at Midnight","author":"Lapierre and Collins","genre":"History, Politics & Geopolitics","description":"A narrative history of the end of British rule and the Partition of India.","coverImage":"Images/Freedom at Midnight.jpg"},
-  {"title":"The Future of Geography","author":"Tim Marshall","genre":"History, Politics & Geopolitics","description":"An exploration of how geography will shape future global power.","coverImage":"Images/The Future of Geography.jpg"},
-  {"title":"The Communist Manifesto","author":"Karl Marx and Friedrich Engels","genre":"History, Politics & Geopolitics","description":"The foundational political pamphlet outlining communist theory and class struggle.","coverImage":"Images/The Communist Manifesto.jpg"},
-  {"title":"The Art of War","author":"Sun Tzu","genre":"History, Politics & Geopolitics","description":"An ancient Chinese treatise on strategy, leadership, and military conflict.","coverImage":"Images/The Art of War.jpg"},
-  {"title":"Sapiens","author":"Yuval Noah Harari","genre":"Big Ideas & Science","description":"A broad history of Homo sapiens from the Stone Age to the present.","coverImage":"Images/Sapiens.jpg"},
-  {"title":"21 Lessons for the 21st Century","author":"Yuval Noah Harari","genre":"Big Ideas & Science","description":"A discussion of major political, technological, and social challenges of the present.","coverImage":"Images/21 lessoons from 21 century.png"},
-  {"title":"Brief Answers to the Big Questions","author":"Stephen Hawking","genre":"Big Ideas & Science","description":"Stephen Hawking's reflections on the universe, science, and humanity's future.","coverImage":"Images/Brief Answers to the Big Questions.jpg"},
-  {"title":"Man's Search for Meaning","author":"Viktor Frankl","genre":"Big Ideas & Science","description":"Viktor Frankl's account of finding meaning amid suffering and imprisonment.","coverImage":"Images/man searching for meaning.jpg"},
-  {"title":"The Godfather","author":"Mario Puzo","genre":"Literary & Classic Fiction","description":"A crime novel about the Corleone family and the world of organized crime.","coverImage":"Images/The Godfather.jpg"},
-  {"title":"Notes from Underground","author":"Fyodor Dostoevsky","genre":"Literary & Classic Fiction","description":"An existential novella narrated by an isolated and conflicted former civil servant.","coverImage":"Images/Notes from Underground.jpg"},
-  {"title":"The Prince","author":"Niccolo Machiavelli","genre":"Literary & Classic Fiction","description":"A political treatise on power, leadership, and ruling effectively.","coverImage":"Images/The Prince.jpg"},
-  {"title":"The Forty Rules of Love","author":"Elif Shafak","genre":"Literary & Classic Fiction","description":"A parallel story of love and spiritual transformation inspired by Rumi and Shams.","coverImage":"Images/The Forty Rules of Love.jpg"},
-  {"title":"A Thousand Splendid Suns","author":"Khaled Hosseini","genre":"Literary & Classic Fiction","description":"A novel about friendship, family, and survival in war-torn Afghanistan.","coverImage":"Images/A Thousand Splendid Suns.jpg"},
-  {"title":"Eleven Minutes","author":"Paulo Coelho","genre":"Literary & Classic Fiction","description":"A novel about love, desire, and self-discovery.","coverImage":"Images/Eleven Minutes.jpg"},
-  {"title":"The Great Adventures of Sherlock Holmes","author":"Arthur Conan Doyle","genre":"Literary & Classic Fiction","description":"A collection of classic detective adventures featuring Sherlock Holmes.","coverImage":"Images/The Great Adventures of Sherlock Holm.jpg"},
-  {"title":"The Prince and the Pauper","author":"Mark Twain","genre":"Literary & Classic Fiction","description":"A historical adventure about two boys who exchange identities.","coverImage":"Images/The Prince and the Pauper.jpg"},
-  {"title":"The Wizard of Oz","author":"L. Frank Baum","genre":"Literary & Classic Fiction","description":"A fantasy adventure following Dorothy through the magical land of Oz.","coverImage":"Images/The Wizard of Oz.jpg"},
-  {"title":"Moby Dick","author":"Herman Melville","genre":"Literary & Classic Fiction","description":"Captain Ahab's obsessive pursuit of the white whale Moby Dick.","coverImage":"Images/Moby Dick.jpg"},
-  {"title":"Black Beauty","author":"Anna Sewell","genre":"Literary & Classic Fiction","description":"A classic animal novel narrated by a horse named Black Beauty.","coverImage":"Images/Black Beauty.jpg"},
-  {"title":"A Tale of Two Cities","author":"Charles Dickens","genre":"Literary & Classic Fiction","description":"A novel of sacrifice and revolution set in London and Paris.","coverImage":"Images/A Tale of Two Cities.jpg"},
-  {"title":"David Copperfield","author":"Charles Dickens","genre":"Literary & Classic Fiction","description":"A coming-of-age novel following David Copperfield's difficult journey to adulthood.","coverImage":"Images/David Copperfield.jpg"},
-  {"title":"The Metamorphosis","author":"Franz Kafka","genre":"Literary & Classic Fiction","description":"A surreal novella about Gregor Samsa's transformation and alienation.","coverImage":"Images/The Metamorphosis.jpg"},
-  {"title":"A Storm of Swords","author":"George R.R. Martin","genre":"Fantasy","description":"The third novel in A Song of Ice and Fire, set amid war and political betrayal.","coverImage":"Images/A Storm of Swords.jpg"},
-  {"title":"A Dance with Dragons","author":"George R.R. Martin","genre":"Fantasy","description":"The fifth novel in A Song of Ice and Fire, following the series' divided characters.","coverImage":"Images/A Dance with Dragons dream and dust George R.R. Martin.jpg"},
-  {"title":"Fevre Dream","author":"George R.R. Martin","genre":"Fantasy","description":"A historical vampire novel set aboard a nineteenth-century Mississippi steamboat.","coverImage":"Images/Fevre Dream.jpg"},
-  {"title":"It Ends with Us","author":"Colleen Hoover","genre":"Contemporary Fiction & Romance","description":"A contemporary romance about love, difficult choices, and breaking cycles of abuse.","coverImage":"Images/It Ends with Us.jpg"},
-  {"title":"It Starts with Us","author":"Colleen Hoover","genre":"Contemporary Fiction & Romance","description":"The follow-up to It Ends with Us, continuing Lily and Atlas's story.","coverImage":"Images/It Starts with Us.jpg"},
-  {"title":"Verity","author":"Colleen Hoover","genre":"Contemporary Fiction & Romance","description":"A psychological thriller about an unfinished manuscript and its disturbing secrets.","coverImage":"Images/Verity.jpg"},
-  {"title":"Ugly Love","author":"Colleen Hoover","genre":"Contemporary Fiction & Romance","description":"A contemporary romance about grief, guarded hearts, and complicated love.","coverImage":"Images/Ugly Love.jpg"},
-  {"title":"Reminders of Him","author":"Colleen Hoover","genre":"Contemporary Fiction & Romance","description":"A woman seeks redemption and a chance to reconnect with her daughter.","coverImage":"Images/Reminders of Him.jpg"},
-  {"title":"Shatter Me","author":"Tahereh Mafi","genre":"Contemporary Fiction & Romance","description":"A young adult dystopian romance about a girl whose touch is lethal.","coverImage":"Images/Shatter Me.jpg"},
-  {"title":"The Girl on the Train","author":"Paula Hawkins","genre":"Contemporary Fiction & Romance","description":"A psychological thriller about a commuter who becomes entangled in a missing-person mystery.","coverImage":"Images/The Girl on the Train.jpg"},
-  {"title":"The Silent Patient","author":"Alex Michaelides","genre":"Contemporary Fiction & Romance","description":"A psychological thriller about a woman who stops speaking after a shocking crime.","coverImage":"Images/The Silent Patient.jpg"},
-  {"title":"Charlie and the Chocolate Factory","author":"Roald Dahl","genre":"Children's & YA","description":"Charlie Bucket wins a tour of Willy Wonka's extraordinary chocolate factory.","coverImage":"Images/Charlie and the Chocolate Factory.jpg"},
-  {"title":"Matilda","author":"Roald Dahl","genre":"Children's & YA","description":"A gifted girl uses her intelligence and courage to stand up to cruel adults.","coverImage":"Images/Matilda.jpg"},
-  {"title":"The BFG","author":"Roald Dahl","genre":"Children's & YA","description":"A young girl befriends a gentle giant who catches and delivers dreams.","coverImage":"Images/The BFG.jpg"},
-  {"title":"The Witches","author":"Roald Dahl","genre":"Children's & YA","description":"A boy discovers a secret society of witches who despise children.","coverImage":"Images/The Witches.jpg"},
-  {"title":"Going Solo","author":"Roald Dahl","genre":"Children's & YA","description":"Roald Dahl's autobiographical account of his wartime and aviation adventures.","coverImage":"Images/Going Solo.jpg"},
-  {"title":"Charlie and the Great Glass Elevator","author":"Roald Dahl","genre":"Children's & YA","description":"Charlie and his family travel through space in Willy Wonka's glass elevator.","coverImage":"Images/Charlie and the Great Glass Elevator.jpg"},
-  {"title":"Spotty Powder and Other Splendiferous Secrets","author":"Roald Dahl","genre":"Children's & YA","description":"A collection of humorous stories, recipes, inventions, and secrets from Roald Dahl.","coverImage":"Images/Spotty Powder and Other Splendiferous Secrets.jpg"},
-  {"title":"Diary of a Wimpy Kid: Rodrick Rules","author":"Jeff Kinney","genre":"Children's & YA","description":"Greg Heffley struggles to survive a new school year and his troublesome older brother.","coverImage":"Images/Diary of a Wimpy Kid Rodrick Rules.jpg"},
-  {"title":"Diary of a Wimpy Kid: The Third Wheel","author":"Jeff Kinney","genre":"Children's & YA","description":"Greg navigates friendship and romance when a school dance approaches.","coverImage":"Images/Diary of a Wimpy Kid The Third Wheel.jpg"},
-  {"title":"Five Run Away Together","author":"Enid Blyton","genre":"Children's & YA","description":"The Famous Five investigate danger and secrets during an isolated holiday.","coverImage":"Images/famous five.jpg"},
-  {"title":"Attack of the Vikings","author":"Tony Bradman","genre":"Children's & YA","description":"A young reader's historical adventure involving Viking raiders.","coverImage":"Images/Attack of the Vikings.jpg"},
-  {"title":"NERDS: M Is for Mama's Boy","author":"Michael Buckley","genre":"Children's & YA","description":"A group of unlikely young spies takes on dangerous missions.","coverImage":"Images/NERDS Buckley m for michael.jpg"},
-  {"title":"Treasure Island","author":"Robert Louis Stevenson","genre":"Children's & YA","description":"Jim Hawkins joins a dangerous voyage in search of buried pirate treasure.","coverImage":"Images/Treasure Island.jpg"},
-  {"title":"The Jungle Book","author":"Rudyard Kipling","genre":"Children's & YA","description":"Classic stories about Mowgli and the animals of the Indian jungle.","coverImage":"Images/he Jungle Book.jpg"},
-  {"title":"Horrid Henry","author":"Francesca Simon","genre":"Children's & YA","description":"A mischievous boy's comic adventures and schemes at home and school.","coverImage":"Images/Horrid Henry.jpg"},
-  {"title":"Rumi: Selected Poems","author":"Rumi","genre":"Religious & Spiritual","description":"A selection of mystical poems by the Persian Sufi poet Rumi.","coverImage":"Images/Rumi Selected Poems.jpg"},
-  {"title":"Secrets of Divine Love","author":"A. Helwa","genre":"Religious & Spiritual","description":"An accessible reflection on Islamic spirituality and love of God.","coverImage":"Images/Secrets of Divine Love.jpg"},
-  {"title":"Repentance","author":"Omar Suleiman","genre":"Religious & Spiritual","description":"An Islamic reflection on returning to God through sincere repentance.","coverImage":"Images/Book of the Film (Repentance).jpg"},
-  {"title":"Reclaim Your Heart","author":"Yasmin Mogahed","genre":"Religious & Spiritual","description":"Islamic spiritual reflections on healing, attachment, and inner freedom.","coverImage":"Images/Reclaim Your Heart.jpg"},
-  {"title":"Beyond Good and Evil","author":"Friedrich Nietzsche","genre":"Philosophy","description":"A philosophical critique of traditional morality and assumptions about truth.","coverImage":"Images/Beyond Good and Evil.jpg"},
-  {"title":"Someone Up There Hates You","author":"Hollis Seamon","genre":"Contemporary Fiction & Romance","description":"A coming-of-age novel about a young man facing illness, friendship, love, and the uncertainty of life.","coverImage":"Images/somebody up there hates you.jpg"},
-  {"title":"My Brother","author":"Fatima Jinnah","genre":"Biographies & Memoirs","description":"Fatima Jinnah's memoir about her brother Muhammad Ali Jinnah and Pakistan's founding.","coverImage":"Images/My Brother.jpg"},
-  {"title":"In the Line of Fire","author":"Pervez Musharraf","genre":"Biographies & Memoirs","description":"A memoir by Pakistan's former president about his life, career, and leadership.","coverImage":"Images/In the Line of Fire.jpg"},
-  {"title":"Michael Jackson: The Magic, the Madness, the Whole Story","author":"J. Randy Taraborrelli","genre":"Biographies & Memoirs","description":"A biography tracing Michael Jackson's life, career, fame, and controversies.","coverImage":"Images/Michael Jackson The Magic, the Madness, the Whole Story.jpg"},
-  {"title":"Boy: Tales of Childhood","author":"Roald Dahl","genre":"Biographies & Memoirs","description":"Roald Dahl's memoir of his childhood, school years, and early adventures.","coverImage":"Images/Boy Tales of Childhood.jpg"},
-  {"title":"Moving the Mountain: Gyari - A Tribute","author":"Ikram ul Haq","genre":"History, Politics & Geopolitics","description":"A tribute to the Pakistan Army soldiers affected by the Gyari avalanche tragedy.","coverImage":"Images/Moving the Mountain Gyari - A Tribute.jpg"},
-  {"title":"The Security Imperative: Pakistan's Nuclear Deterrence and Diplomacy","author":"Zamir Akram","genre":"History, Politics & Geopolitics","description":"An analysis of Pakistan's nuclear deterrence policy and diplomatic strategy.","coverImage":"Images/The Security Imperative Pakistan's Nuclear Deterrence and Diplomacy.jpg"},
-  {"title":"Pakistan: Between Mosque and Military","author":"Husain Haqqani","genre":"History, Politics & Geopolitics","description":"An analysis of the relationship between religion, politics, and Pakistan's military.","coverImage":"Images/Pakistan Between Mosque and Military.jpg"},
-  {"title":"Pakistan's Wars","author":"Tariq Rahman","genre":"History, Politics & Geopolitics","description":"A historical account of Pakistan's major wars and military conflicts.","coverImage":"Images/Pakistan's Wars.jpg"},
-  {"title":"Why Nations Fail","author":"Daron Acemoglu and James Robinson","genre":"History, Politics & Geopolitics","description":"An analysis of how political and economic institutions shape national prosperity or failure.","coverImage":"Images/Why Nations Fail.jpg"},
-  {"title":"Military Inc.","author":"Ayesha Siddiqa","genre":"History, Politics & Geopolitics","description":"An examination of Pakistan's military economy and the armed forces' commercial interests.","coverImage":"Images/Military Inc.jpg"},
-  {"title":"A Case of Exploding Mangoes","author":"Mohammed Hanif","genre":"History, Politics & Geopolitics","description":"A satirical novel about the mysterious death of General Zia and Pakistan's political world.","coverImage":"Images/A Case of Exploding Mangoes.jpg"},
-  {"title":"The Grand Design","author":"Stephen Hawking and Leonard Mlodinow","genre":"Big Ideas & Science","description":"A popular science exploration of the universe's origins and the laws governing it.","coverImage":"Images/The Grand Design.jpg"},
-  {"title":"A Brief History of Time","author":"Stephen Hawking","genre":"Big Ideas & Science","description":"Stephen Hawking's accessible introduction to cosmology, black holes, space, and time.","coverImage":"Images/A Brief History of Time.jpg"},
-  {"title":"The Alchemist","author":"Paulo Coelho","genre":"Literary & Classic Fiction","description":"An allegorical novel about a shepherd who follows his dreams in search of treasure and purpose.","coverImage":"Images/The Alchemist.jpg"},
-  {"title":"And the Mountains Echoed","author":"Khaled Hosseini","genre":"Literary & Classic Fiction","description":"A multigenerational family saga about love, separation, and sacrifice.","coverImage":"Images/And the Mountains Echoed.jpg"},
-  {"title":"Train to Pakistan","author":"Khushwant Singh","genre":"Literary & Classic Fiction","description":"A classic novel depicting the human cost of the Partition of India.","coverImage":"Images/Train to Pakistan.jpg"},
-  {"title":"Berlin Game","author":"Len Deighton","genre":"Literary & Classic Fiction","description":"A Cold War espionage thriller about betrayal and intelligence operations.","coverImage":"Images/Berlin Game.jpg"},
-  {"title":"The Extraordinary Cases of Sherlock Holmes","author":"Arthur Conan Doyle","genre":"Literary & Classic Fiction","description":"A collection of classic detective mysteries featuring Sherlock Holmes.","coverImage":"Images/The Extraordinary Cases of Sherlock Holmes.jpg"},
-  {"title":"The Gaze","author":"Elif Shafak","genre":"Literary & Classic Fiction","description":"A novel exploring identity, beauty, perception, and the ways people observe one another.","coverImage":"Images/The Gaze.jpg"},
-  {"title":"Animal Farm","author":"George Orwell","genre":"Literary & Classic Fiction","description":"An allegorical satire about revolution, propaganda, and totalitarian power.","coverImage":"Images/Animal Farm.jpg"},
-  {"title":"Meditations","author":"Marcus Aurelius","genre":"Literary & Classic Fiction","description":"Personal Stoic reflections on virtue, discipline, duty, and accepting what cannot be changed.","coverImage":"Images/Meditations.jpg"},
-  {"title":"A Clash of Kings","author":"George R.R. Martin","genre":"Fantasy","description":"The second novel in A Song of Ice and Fire, following rival claimants during a civil war.","coverImage":"Images/A Clash of Kings.jpg"},
-  {"title":"Rumi: Bridge to the Soul","author":"Coleman Barks","genre":"Religious & Spiritual","description":"A collection and interpretation of Rumi's poetry, music, and spiritual ideas.","coverImage":"Images/Rumi Bridge to the Soul.jpg"},
-  {"title":"Unite Me","author":"Tahereh Mafi","genre":"Contemporary Fiction & Romance","description":"Companion novellas expanding the characters and events of the Shatter Me series.","coverImage":"Images/Unite me.jpg"},
-  {"title":"Before I Knew I Loved You","author":"Toshikazu Kawaguchi","genre":"Contemporary Fiction & Romance","description":"The sixth book in the Before the Coffee Gets Cold series, centered on love and memory.","coverImage":"Images/Before i knew i love you.jpg"},
-  {"title":"Harry Potter and the Goblet of Fire","author":"J.K. Rowling","genre":"Children's & YA","description":"The fourth Harry Potter novel, featuring the dangerous Triwizard Tournament.","coverImage":"Images/Harry Potter and the Goblet of Fire J.K. Rowling.jpg"},
-  {"title":"Harry Potter and the Chamber of Secrets","author":"J.K. Rowling","genre":"Children's & YA","description":"The second Harry Potter novel, in which a hidden chamber threatens Hogwarts students.","coverImage":"Images/Harry Potter and the Chamber of Secrets.jpg"},
-  {"title":"Dirty Beasts","author":"Roald Dahl","genre":"Children's & YA","description":"A humorous poetry collection about outrageous and mischievous creatures.","coverImage":"Images/Dirty Beasts.jpg"},
-  {"title":"Spider-Man: Homecoming","author":"Movie Novelization","genre":"Children's & YA","description":"A novelization of the Spider-Man: Homecoming film.","coverImage":"Images/Spider-Man Homecoming.jpg"},
-  {"title":"My Barmy Aunt Boomerang Bounces Back","author":"Rose Impey","genre":"Children's & YA","description":"A children's comedy about an eccentric aunt and her chaotic adventures.","coverImage":"Images/My Barmy Aunt Boomerang Bounces Back.jpg"},
-  {"title":"Diary of a Wimpy Kid: Hard Luck","author":"Jeff Kinney","genre":"Children's & YA","description":"A Wimpy Kid story about Greg's changing friendships and unlucky attempts to fit in.","coverImage":"Images/Diary of a Wimpy Kid Hard Luck.jpg"},
-  {"title":"Diary of a Wimpy Kid: The Meltdown","author":"Jeff Kinney","genre":"Children's & YA","description":"A Wimpy Kid adventure that begins when a snowball fight turns into a neighborhood battle.","coverImage":"Images/Diary of a Wimpy Kid The Meltdown.jpg"},
-  {"title":"Road to Success","author":"Napoleon Hill","genre":"Self-Help & Personal Development","description":"A self-help guide presenting principles for achievement, confidence, and lasting success.","coverImage":"Images/Road to Success.jpg"},
-  {"title":"Master Your Thinking","author":"Unknown","genre":"Self-Help & Personal Development","description":"A practical guide to clearer thinking, realistic decisions, and measurable personal results.","coverImage":"Images/Master Your Thinking.jpg"},
-  {"title":"The Art of Being Alone","author":"Unknown","genre":"Self-Help & Personal Development","description":"A self-help book about solitude, self-reliance, and building a comfortable relationship with oneself.","coverImage":"Images/The Art of Being Alone.jpg"},
-  {"title":"Attitude Is Everything","author":"Jeff Keller","genre":"Self-Help & Personal Development","description":"A motivational guide to using mindset and positive attitude to influence personal outcomes.","coverImage":"Images/Attitude is everything.jpg"}
+  {
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "genre": "Biographies & Memoirs",
+    "description": "A biography of entrepreneur and technology leader Elon Musk.",
+    "coverImage": "Images/Elon Musk.jpg",
+    "copies": 1,
+    "id": "Elon Musk-1"
+  },
+  {
+    "title": "Dreams from My Father",
+    "author": "Barack Obama",
+    "genre": "Biographies & Memoirs",
+    "description": "Barack Obama's memoir about family, race, identity, and finding his place in America.",
+    "coverImage": "Images/Dreams from My Father.jpg",
+    "copies": 1,
+    "id": "Dreams from My Father-2"
+  },
+  {
+    "title": "Daughter of the East",
+    "author": "Benazir Bhutto",
+    "genre": "Biographies & Memoirs",
+    "description": "Benazir Bhutto's autobiography about her family, political life, and Pakistan.",
+    "coverImage": "Images/Daughter of the East.jpg",
+    "copies": 1,
+    "id": "Daughter of the East-3"
+  },
+  {
+    "title": "My Brother",
+    "author": "Fatima Jinnah",
+    "genre": "Biographies & Memoirs",
+    "description": "Fatima Jinnah's memoir about her brother Muhammad Ali Jinnah and Pakistan's founding.",
+    "coverImage": "Images/My Brother.jpg",
+    "copies": 1,
+    "id": "My Brother-4"
+  },
+  {
+    "title": "Pakistan A Personal History",
+    "author": "Imran Khan",
+    "genre": "Biographies & Memoirs",
+    "description": "Pakistan A Personal History by Imran Khan.",
+    "coverImage": "Images/Imran Khan Pakistan A Personal History.jpg",
+    "copies": 1,
+    "id": "Pakistan A Personal History-5"
+  },
+  {
+    "title": "Michael Jackson: The Magic, the Madness, the Whole Story",
+    "author": "J. Randy Taraborrelli",
+    "genre": "Biographies & Memoirs",
+    "description": "A biography tracing Michael Jackson's life, career, fame, and controversies.",
+    "coverImage": "Images/Michael Jackson The Magic, the Madness, the Whole Story.jpg",
+    "copies": 1,
+    "id": "Michael Jackson: The Magic, the Madness, the Whole Story-6"
+  },
+  {
+    "title": "Ali: A Life",
+    "author": "Jonathan Eig",
+    "genre": "Biographies & Memoirs",
+    "description": "A detailed biography of boxer and activist Muhammad Ali.",
+    "coverImage": "Images/Ali A Life.jpg",
+    "copies": 1,
+    "id": "Ali: A Life-7"
+  },
+  {
+    "title": "Meena Heroine of Afghanistan",
+    "author": "Melody Ermachild Chavis",
+    "genre": "Biographies & Memoirs",
+    "description": "Meena Heroine of Afghanistan by Melody Ermachild Chavis.",
+    "coverImage": "Images/Melody Ermachild Chavis  Meena Heroine of Afghanistan.jpg",
+    "copies": 1,
+    "id": "Meena Heroine of Afghanistan-8"
+  },
+  {
+    "title": "Long Walk to Freedom",
+    "author": "Nelson Mandela",
+    "genre": "Biographies & Memoirs",
+    "description": "Long Walk to Freedom by Nelson Mandela.",
+    "coverImage": "Images/Nelson Mandela Long Walk to Freedom.jpg",
+    "copies": 1,
+    "id": "Long Walk to Freedom-9"
+  },
+  {
+    "title": "In the Line of Fire",
+    "author": "Pervez Musharraf",
+    "genre": "Biographies & Memoirs",
+    "description": "A memoir by Pakistan's former president about his life, career, and leadership.",
+    "coverImage": "Images/In the Line of Fire.jpg",
+    "copies": 1,
+    "id": "In the Line of Fire-10"
+  },
+  {
+    "title": "Boy: Tales of Childhood",
+    "author": "Roald Dahl",
+    "genre": "Biographies & Memoirs",
+    "description": "Roald Dahl's memoir of his childhood, school years, and early adventures.",
+    "coverImage": "Images/Boy Tales of Childhood.jpg",
+    "copies": 1,
+    "id": "Boy: Tales of Childhood-11"
+  },
+  {
+    "title": "Pablo Escobar: My Brother",
+    "author": "Roberto Escobar",
+    "genre": "Biographies & Memoirs",
+    "description": "Roberto Escobar's memoir about his brother Pablo and the Medellin cartel.",
+    "coverImage": "Images/Pablo Escobar My Brother.jpg",
+    "copies": 1,
+    "id": "Pablo Escobar: My Brother-12"
+  },
+  {
+    "title": "Do Epic Sh*t",
+    "author": "Ankur Warikoo",
+    "genre": "Self-Help & Personal Development",
+    "description": "Ankur Warikoo's collection of practical reflections on work, life, and ambition.",
+    "coverImage": "Images/Do Epic Shit.jpg",
+    "copies": 1,
+    "id": "Do Epic Sh*t-13"
+  },
+  {
+    "title": "Eat That Frog!",
+    "author": "Brian Tracy",
+    "genre": "Self-Help & Personal Development",
+    "description": "Eat That Frog! by Brian Tracy.",
+    "coverImage": "Images/Brian Tracy Eat That Frog!.jpg",
+    "copies": 1,
+    "id": "Eat That Frog!-14"
+  },
+  {
+    "title": "The Mountain Is You",
+    "author": "Brianna Wiest",
+    "genre": "Self-Help & Personal Development",
+    "description": "An exploration of self-sabotage and the inner work needed for self-mastery.",
+    "coverImage": "Images/The Mountain Is You.jpg",
+    "copies": 1,
+    "id": "The Mountain Is You-15"
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Self-Help & Personal Development",
+    "description": "A case for focused, distraction-free work in an increasingly connected world.",
+    "coverImage": "Images/Deep work.jpg",
+    "copies": 1,
+    "id": "Deep Work-16"
+  },
+  {
+    "title": "How to Enjoy Your Life and Your Job",
+    "author": "Dale Carnegie",
+    "genre": "Self-Help & Personal Development",
+    "description": "How to Enjoy Your Life and Your Job by Dale Carnegie.",
+    "coverImage": "Images/Dale Carnegie How to Enjoy Your Life and Your Job.jpg",
+    "copies": 1,
+    "id": "How to Enjoy Your Life and Your Job-17"
+  },
+  {
+    "title": "How to Stop Worrying and Start Living",
+    "author": "Dale Carnegie",
+    "genre": "Self-Help & Personal Development",
+    "description": "Techniques for managing worry and living with greater calm and purpose.",
+    "coverImage": "Images/How to Stop Worrying and Start Living.jpg",
+    "copies": 1,
+    "id": "How to Stop Worrying and Start Living-18"
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "genre": "Self-Help & Personal Development",
+    "description": "Practical advice for communicating well and building positive relationships.",
+    "coverImage": "Images/How to Win Friends and Influence People.jpg",
+    "copies": 1,
+    "id": "How to Win Friends and Influence People-19"
+  },
+  {
+    "title": "The Quick and Easy Way to Effective Speaking",
+    "author": "Dale Carnegie",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Quick and Easy Way to Effective Speaking by Dale Carnegie.",
+    "coverImage": "Images/Dale Carnegie The Quick and Easy Way to Effective Speaking.jpg",
+    "copies": 1,
+    "id": "The Quick and Easy Way to Effective Speaking-20"
+  },
+  {
+    "title": "The Power of Discipline",
+    "author": "Daniel Walter",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Power of Discipline by Daniel Walter.",
+    "coverImage": "Images/Daniel Walter The Power of Discipline.jpg",
+    "copies": 1,
+    "id": "The Power of Discipline-21"
+  },
+  {
+    "title": "The Compound Effect",
+    "author": "Darren Hardy",
+    "genre": "Self-Help & Personal Development",
+    "description": "A guide to how small, consistent choices compound into significant results.",
+    "coverImage": "Images/The Compound Effect.jpg",
+    "copies": 1,
+    "id": "The Compound Effect-22"
+  },
+  {
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "genre": "Self-Help & Personal Development",
+    "description": "David Goggins's memoir about overcoming hardship through mental toughness and discipline.",
+    "coverImage": "Images/Can't Hurt Me.jpg",
+    "copies": 1,
+    "id": "Can't Hurt Me-23"
+  },
+  {
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Power of Now by Eckhart Tolle.",
+    "coverImage": "Images/Eckhart Tolle The Power of Now.jpg",
+    "copies": 1,
+    "id": "The Power of Now-24"
+  },
+  {
+    "title": "Ikigai",
+    "author": "Hector Garcia and Francesc Miralles",
+    "genre": "Self-Help & Personal Development",
+    "description": "Ikigai by Hector Garcia and Francesc Miralles.",
+    "coverImage": "Images/Hector Garcia & Francesc Miralles Ikigai.jpg",
+    "copies": 1,
+    "id": "Ikigai-25"
+  },
+  {
+    "title": "The Book of Ichigo Ichie",
+    "author": "Hector Garcia and Francesc Miralles",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Book of Ichigo Ichie by Hector Garcia and Francesc Miralles.",
+    "coverImage": "Images/Hector Garcia & Francesc Miralles The Book of Ichigo Ichie.jpg",
+    "copies": 1,
+    "id": "The Book of Ichigo Ichie-26"
+  },
+  {
+    "title": "The Courage to Be Disliked",
+    "author": "Ichiro Kishimi and Fumitake Koga",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Courage to Be Disliked by Ichiro Kishimi and Fumitake Koga.",
+    "coverImage": "Images/Ichiro Kishimi & Fumitake Koga The Courage to Be Disliked.jpg",
+    "copies": 1,
+    "id": "The Courage to Be Disliked-27"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-Help & Personal Development",
+    "description": "A practical framework for building good habits and breaking bad ones through small changes.",
+    "coverImage": "Images/atomic habits.webp",
+    "copies": 1,
+    "id": "Atomic Habits-28"
+  },
+  {
+    "title": "Attitude Is Everything",
+    "author": "Jeff Keller",
+    "genre": "Self-Help & Personal Development",
+    "description": "A motivational guide to using mindset and positive attitude to influence personal outcomes.",
+    "coverImage": "Images/Attitude is everything.jpg",
+    "copies": 1,
+    "id": "Attitude Is Everything-29"
+  },
+  {
+    "title": "The Art of Laziness",
+    "author": "Library Mindset",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Art of Laziness by Library Mindset.",
+    "coverImage": "Images/Library Mindset The Art of Laziness.jpg",
+    "copies": 1,
+    "id": "The Art of Laziness-30"
+  },
+  {
+    "title": "Everything Is F*cked",
+    "author": "Mark Manson",
+    "genre": "Self-Help & Personal Development",
+    "description": "A reflection on hope, suffering, and finding meaning in a difficult modern world.",
+    "coverImage": "Images/Everything Is Fcked.png",
+    "copies": 1,
+    "id": "Everything Is F*cked-31"
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help & Personal Development",
+    "description": "A candid argument for choosing meaningful values and accepting life's limits.",
+    "coverImage": "Images/The Subtle Art of Not Giving a Fck.jpg",
+    "copies": 1,
+    "id": "The Subtle Art of Not Giving a F*ck-32"
+  },
+  {
+    "title": "Psycho-Cybernetics",
+    "author": "Maxwell Maltz",
+    "genre": "Self-Help & Personal Development",
+    "description": "A classic exploration of self-image and how it influences behavior and success.",
+    "coverImage": "Images/Psycho-Cybernetics.jpg",
+    "copies": 1,
+    "id": "Psycho-Cybernetics-33"
+  },
+  {
+    "title": "Master Your Mindset",
+    "author": "Mindset Reading",
+    "genre": "Self-Help & Personal Development",
+    "description": "Master Your Mindset by Mindset Reading.",
+    "coverImage": "Images/Mindset Reading Master Your Mindset.jpg",
+    "copies": 1,
+    "id": "Master Your Mindset-34"
+  },
+  {
+    "title": "The Mirror",
+    "author": "Mohammed Al-Ubaidy",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Mirror by Mohammed Al-Ubaidy.",
+    "coverImage": "Images/Mohammed Al-Ubaidy The Mirror.jpg",
+    "copies": 1,
+    "id": "The Mirror-35"
+  },
+  {
+    "title": "Road to Success",
+    "author": "Napoleon Hill",
+    "genre": "Self-Help & Personal Development",
+    "description": "A self-help guide presenting principles for achievement, confidence, and lasting success.",
+    "coverImage": "Images/Road to Success.jpg",
+    "copies": 1,
+    "id": "Road to Success-36"
+  },
+  {
+    "title": "The Art of Letting Go",
+    "author": "Nick Trenton",
+    "genre": "Self-Help & Personal Development",
+    "description": "The Art of Letting Go by Nick Trenton.",
+    "coverImage": "Images/Nick Trenton The Art of Letting Go.jpg",
+    "copies": 1,
+    "id": "The Art of Letting Go-37"
+  },
+  {
+    "title": "The Art of Being Alone",
+    "author": "Renuka Gavrani",
+    "genre": "Self-Help & Personal Development",
+    "description": "A self-help book about solitude, self-reliance, and building a comfortable relationship with oneself.",
+    "coverImage": "Images/The Art of Being Alone.jpg",
+    "copies": 1,
+    "id": "The Art of Being Alone-38"
+  },
+  {
+    "title": "Don't Sweat the Small Stuff",
+    "author": "Richard Carlson",
+    "genre": "Self-Help & Personal Development",
+    "description": "Don't Sweat the Small Stuff by Richard Carlson.",
+    "coverImage": "Images/Richard Carlson Don't Sweat the Small Stuff.png",
+    "copies": 1,
+    "id": "Don't Sweat the Small Stuff-39"
+  },
+  {
+    "title": "The Monk Who Sold His Ferrari",
+    "author": "Robin Sharma",
+    "genre": "Self-Help & Personal Development",
+    "description": "A motivational fable about purpose, discipline, and a simpler life.",
+    "coverImage": "Images/The Monk Who Sold His Ferrari.jpg",
+    "copies": 1,
+    "id": "The Monk Who Sold His Ferrari-40"
+  },
+  {
+    "title": "The Monk Who Sold His Ferrari",
+    "author": "Robin Sharma",
+    "genre": "Self-Help & Personal Development",
+    "description": "A motivational fable about purpose, discipline, and a simpler life.",
+    "coverImage": "Images/The Monk Who Sold His Ferrari.jpg",
+    "copies": 1,
+    "id": "The Monk Who Sold His Ferrari-41"
+  },
+  {
+    "title": "Who Will Cry When You Die",
+    "author": "Robin Sharma",
+    "genre": "Self-Help & Personal Development",
+    "description": "Who Will Cry When You Die by Robin Sharma.",
+    "coverImage": "Images/Robin Sharma Who Will Cry When You Die.jpg",
+    "copies": 1,
+    "id": "Who Will Cry When You Die-42"
+  },
+  {
+    "title": "Ego Is the Enemy",
+    "author": "Ryan Holiday",
+    "genre": "Self-Help & Personal Development",
+    "description": "A Stoic examination of how ego can obstruct ambition, success, and resilience.",
+    "coverImage": "Images/Ego is enemy.jpg",
+    "copies": 1,
+    "id": "Ego Is the Enemy-43"
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen Covey",
+    "genre": "Self-Help & Personal Development",
+    "description": "A principles-based framework for personal effectiveness and lasting relationships.",
+    "coverImage": "Images/The 7 Habits of Highly Effective People.jpg",
+    "copies": 1,
+    "id": "The 7 Habits of Highly Effective People-44"
+  },
+  {
+    "title": "Master Your Thinking",
+    "author": "Thibaut Meurisse",
+    "genre": "Self-Help & Personal Development",
+    "description": "A practical guide to clearer thinking, realistic decisions, and measurable personal results.",
+    "coverImage": "Images/Master Your Thinking.jpg",
+    "copies": 1,
+    "id": "Master Your Thinking-45"
+  },
+  {
+    "title": "$100M Leads",
+    "author": "Alex Hormozi",
+    "genre": "Business, Finance & Money Management",
+    "description": "$100M Leads by Alex Hormozi.",
+    "coverImage": "Images/Alex Hormozi $100M Leads.jpg",
+    "copies": 1,
+    "id": "$100M Leads-46"
+  },
+  {
+    "title": "$100M Money Models",
+    "author": "Alex Hormozi",
+    "genre": "Business, Finance & Money Management",
+    "description": "$100M Money Models by Alex Hormozi.",
+    "coverImage": "Images/Alex Hormozi $100M Money Models.jpg",
+    "copies": 1,
+    "id": "$100M Money Models-47"
+  },
+  {
+    "title": "$100M Offers",
+    "author": "Alex Hormozi",
+    "genre": "Business, Finance & Money Management",
+    "description": "$100M Offers by Alex Hormozi.",
+    "coverImage": "Images/Alex Hormozi $100M Offers.jpg",
+    "copies": 1,
+    "id": "$100M Offers-48"
+  },
+  {
+    "title": "Millionaire Habits",
+    "author": "Dean Graziosi",
+    "genre": "Business, Finance & Money Management",
+    "description": "Millionaire Habits by Dean Graziosi.",
+    "coverImage": "Images/Dean Graziosi Millionaire Habits.jpg",
+    "copies": 1,
+    "id": "Millionaire Habits-49"
+  },
+  {
+    "title": "The Art of Spending Money",
+    "author": "Morgan Housel",
+    "genre": "Business, Finance & Money Management",
+    "description": "The Art of Spending Money by Morgan Housel.",
+    "coverImage": "Images/Morgan Housel The Art of Spending Money.jpg",
+    "copies": 1,
+    "id": "The Art of Spending Money-50"
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Business, Finance & Money Management",
+    "description": "Behavioral lessons about how people think, feel, and act around money.",
+    "coverImage": "Images/The Psychology of Money.jpg",
+    "copies": 1,
+    "id": "The Psychology of Money-51"
+  },
+  {
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "genre": "Business, Finance & Money Management",
+    "description": "A classic guide to achievement built around mindset, persistence, and focused goals.",
+    "coverImage": "Images/Think and Grow Rich.jpg",
+    "copies": 1,
+    "id": "Think and Grow Rich-52"
+  },
+  {
+    "title": "The 10% Entrepreneur",
+    "author": "Patrick J. McGinnis",
+    "genre": "Business, Finance & Money Management",
+    "description": "The 10% Entrepreneur by Patrick J. McGinnis.",
+    "coverImage": "Images/Patrick J. McGinnis The 10% Entrepreneur.jpg",
+    "copies": 1,
+    "id": "The 10% Entrepreneur-53"
+  },
+  {
+    "title": "The 10% Entrepreneur",
+    "author": "Patrick J. McGinnis",
+    "genre": "Business, Finance & Money Management",
+    "description": "The 10% Entrepreneur by Patrick J. McGinnis.",
+    "coverImage": "Images/Patrick J. McGinnis The 10% Entrepreneur.jpg",
+    "copies": 1,
+    "id": "The 10% Entrepreneur-54"
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "genre": "Business, Finance & Money Management",
+    "description": "Peter Thiel's argument for creating new businesses through innovation and monopoly.",
+    "coverImage": "Images/Zero to One.jpg",
+    "copies": 1,
+    "id": "Zero to One-55"
+  },
+  {
+    "title": "The 80/20 Principle",
+    "author": "Richard Koch",
+    "genre": "Business, Finance & Money Management",
+    "description": "An application of the Pareto principle to work, business, and everyday life.",
+    "coverImage": "Images/The 80 20 Principle.jpg",
+    "copies": 1,
+    "id": "The 80/20 Principle-56"
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Business, Finance & Money Management",
+    "description": "A personal-finance book contrasting different attitudes toward money and investing.",
+    "coverImage": "Images/Rich Dad Poor Dad.jpg",
+    "copies": 1,
+    "id": "Rich Dad Poor Dad-57"
+  },
+  {
+    "title": "The Art of Persuasion",
+    "author": "Bob Burg",
+    "genre": "Psychology & Influence",
+    "description": "The Art of Persuasion by Bob Burg.",
+    "coverImage": "Images/Bob Burg The Art of Persuasion.jpg",
+    "copies": 1,
+    "id": "The Art of Persuasion-58"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "Psychology & Influence",
+    "description": "Thinking, Fast and Slow by Daniel Kahneman.",
+    "coverImage": "Images/Daniel Kahneman Thinking, Fast and Slow.jpg",
+    "copies": 1,
+    "id": "Thinking, Fast and Slow-59"
+  },
+  {
+    "title": "Dark Psychology Secrets",
+    "author": "Emilie Stanton",
+    "genre": "Psychology & Influence",
+    "description": "An overview of manipulative behavior, persuasion, and psychological influence.",
+    "coverImage": "Images/Dark Psychology.jpg",
+    "copies": 1,
+    "id": "Dark Psychology Secrets-60"
+  },
+  {
+    "title": "The Art of Reading Minds",
+    "author": "Henrik Fexeus",
+    "genre": "Psychology & Influence",
+    "description": "An introduction to reading body language and social signals.",
+    "coverImage": "Images/The Art of Reading Minds.jpg",
+    "copies": 1,
+    "id": "The Art of Reading Minds-61"
+  },
+  {
+    "title": "The Power of Your Subconscious Mind",
+    "author": "Joseph Murphy",
+    "genre": "Psychology & Influence",
+    "description": "A mind-and-belief approach to changing habits and pursuing personal goals.",
+    "coverImage": "Images/The Power of Your Subconscious Mind.jpg",
+    "copies": 1,
+    "id": "The Power of Your Subconscious Mind-62"
+  },
+  {
+    "title": "How to Talk to Anyone",
+    "author": "Leil Lowndes",
+    "genre": "Psychology & Influence",
+    "description": "How to Talk to Anyone by Leil Lowndes.",
+    "coverImage": "Images/Leil Lowndes How to Talk to Anyone.jpg",
+    "copies": 1,
+    "id": "How to Talk to Anyone-63"
+  },
+  {
+    "title": "Read People Like a Book",
+    "author": "Patrick King",
+    "genre": "Psychology & Influence",
+    "description": "Read People Like a Book by Patrick King.",
+    "coverImage": "Images/Patrick King Read People Like a Book.jpg",
+    "copies": 1,
+    "id": "Read People Like a Book-64"
+  },
+  {
+    "title": "Influence",
+    "author": "Robert Cialdini",
+    "genre": "Psychology & Influence",
+    "description": "Influence by Robert Cialdini.",
+    "coverImage": "Images/Robert Cialdini Influence.png",
+    "copies": 1,
+    "id": "Influence-65"
+  },
+  {
+    "title": "The 48 Laws of Power",
+    "author": "Robert Greene",
+    "genre": "Psychology & Influence",
+    "description": "Historical observations about power, strategy, and human behavior.",
+    "coverImage": "Images/The 48 Laws of Power.png",
+    "copies": 1,
+    "id": "The 48 Laws of Power-66"
+  },
+  {
+    "title": "The Art of Seduction",
+    "author": "Robert Greene",
+    "genre": "Psychology & Influence",
+    "description": "The Art of Seduction by Robert Greene.",
+    "coverImage": "Images/Robert Greene The Art of Seduction.jpg",
+    "copies": 1,
+    "id": "The Art of Seduction-67"
+  },
+  {
+    "title": "The Art of Seduction",
+    "author": "Robert Greene",
+    "genre": "Psychology & Influence",
+    "description": "The Art of Seduction by Robert Greene.",
+    "coverImage": "Images/Robert Greene The Art of Seduction.jpg",
+    "copies": 1,
+    "id": "The Art of Seduction-68"
+  },
+  {
+    "title": "The Laws of Human Nature",
+    "author": "Robert Greene",
+    "genre": "Psychology & Influence",
+    "description": "An examination of recurring human motives, emotions, and social behavior.",
+    "coverImage": "Images/The Laws of Human Nature.jpg",
+    "copies": 1,
+    "id": "The Laws of Human Nature-69"
+  },
+  {
+    "title": "Surrounded by Idiots",
+    "author": "Thomas Erikson",
+    "genre": "Psychology & Influence",
+    "description": "Surrounded by Idiots by Thomas Erikson.",
+    "coverImage": "Images/Thomas Erikson Surrounded by Idiots.jpg",
+    "copies": 1,
+    "id": "Surrounded by Idiots-70"
+  },
+  {
+    "title": "Surrounded by Narcissists",
+    "author": "Thomas Erikson",
+    "genre": "Psychology & Influence",
+    "description": "Surrounded by Narcissists by Thomas Erikson.",
+    "coverImage": "Images/Thomas Erikson Surrounded by Narcissists.jpg",
+    "copies": 1,
+    "id": "Surrounded by Narcissists-71"
+  },
+  {
+    "title": "Surrounded by Psychopaths",
+    "author": "Thomas Erikson",
+    "genre": "Psychology & Influence",
+    "description": "Surrounded by Psychopaths by Thomas Erikson.",
+    "coverImage": "Images/Thomas Erikson Surrounded by Psychopaths.jpg",
+    "copies": 1,
+    "id": "Surrounded by Psychopaths-72"
+  },
+  {
+    "title": "How to Analyze People with Dark Psychology",
+    "author": "Will Hawkins",
+    "genre": "Psychology & Influence",
+    "description": "How to Analyze People with Dark Psychology by Will Hawkins.",
+    "coverImage": "Images/Will Hawkins How to Analyze People with Dark Psychology.jpg",
+    "copies": 1,
+    "id": "How to Analyze People with Dark Psychology-73"
+  },
+  {
+    "title": "Spy Stories",
+    "author": "Adrian Levy and Cathy Scott-Clark",
+    "genre": "History, Politics & Geopolitics",
+    "description": "Spy Stories by Adrian Levy and Cathy Scott-Clark.",
+    "coverImage": "Images/Adrian Levy & Cathy Scott-Clark Spy Stories.jpg",
+    "copies": 1,
+    "id": "Spy Stories-74"
+  },
+  {
+    "title": "Sabre Rattling in Space",
+    "author": "Ahmed Khan and Elgar Saleh",
+    "genre": "History, Politics & Geopolitics",
+    "description": "Sabre Rattling in Space by Ahmed Khan and Elgar Saleh.",
+    "coverImage": "Images/Ahmed Khan & Elgar Saleh Sabre Rattling in Space.jpg",
+    "copies": 1,
+    "id": "Sabre Rattling in Space-75"
+  },
+  {
+    "title": "The China-Pakistan Axis",
+    "author": "Andrew Small",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An account of the strategic relationship between China and Pakistan.",
+    "coverImage": "Images/The China-Pakistan Axis.jpg",
+    "copies": 1,
+    "id": "The China-Pakistan Axis-76"
+  },
+  {
+    "title": "Military Inc.",
+    "author": "Ayesha Siddiqa",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An examination of Pakistan's military economy and the armed forces' commercial interests.",
+    "coverImage": "Images/Military Inc.jpg",
+    "copies": 1,
+    "id": "Military Inc.-77"
+  },
+  {
+    "title": "Guerrilla Warfare",
+    "author": "Che Guevara",
+    "genre": "History, Politics & Geopolitics",
+    "description": "Guerrilla Warfare by Che Guevara.",
+    "coverImage": "Images/Che Guevara Guerrilla Warfare.jpg",
+    "copies": 1,
+    "id": "Guerrilla Warfare-78"
+  },
+  {
+    "title": "The Pakistan Paradox",
+    "author": "Christophe Jaffrelot",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The Pakistan Paradox by Christophe Jaffrelot.",
+    "coverImage": "Images/The Pakistan Paradox.jpg",
+    "copies": 1,
+    "id": "The Pakistan Paradox-79"
+  },
+  {
+    "title": "Why Nations Fail",
+    "author": "Daron Acemoglu and James Robinson",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An analysis of how political and economic institutions shape national prosperity or failure.",
+    "coverImage": "Images/Why Nations Fail.jpg",
+    "copies": 1,
+    "id": "Why Nations Fail-80"
+  },
+  {
+    "title": "The Nine Lives of Pakistan",
+    "author": "Declan Walsh",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A journalistic account of Pakistan's turbulent political history.",
+    "coverImage": "Images/The Nine Lives of Pakistan.jpg",
+    "copies": 1,
+    "id": "The Nine Lives of Pakistan-81"
+  },
+  {
+    "title": "Cold War in the Islamic World",
+    "author": "Dilip Hiro",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A history of rivalry and conflict in the Islamic world, especially Saudi-Iran relations.",
+    "coverImage": "Images/Cold War in the Islamic World.jpg",
+    "copies": 1,
+    "id": "Cold War in the Islamic World-82"
+  },
+  {
+    "title": "Pakistan: Between Mosque and Military",
+    "author": "Husain Haqqani",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An analysis of the relationship between religion, politics, and Pakistan's military.",
+    "coverImage": "Images/Pakistan Between Mosque and Military.jpg",
+    "copies": 1,
+    "id": "Pakistan: Between Mosque and Military-83"
+  },
+  {
+    "title": "What the Taliban Told Me",
+    "author": "Ian Fritz",
+    "genre": "History, Politics & Geopolitics",
+    "description": "What the Taliban Told Me by Ian Fritz.",
+    "coverImage": "Images/Ian Fritz What the Taliban Told Me.jpg",
+    "copies": 1,
+    "id": "What the Taliban Told Me-84"
+  },
+  {
+    "title": "Moving the Mountain: Gyari - A Tribute",
+    "author": "Ikram ul Haq",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A tribute to the Pakistan Army soldiers affected by the Gyari avalanche tragedy.",
+    "coverImage": "Images/Moving the Mountain Gyari - A Tribute.jpg",
+    "copies": 1,
+    "id": "Moving the Mountain: Gyari - A Tribute-85"
+  },
+  {
+    "title": "What Is Pakistaniat?",
+    "author": "Javed Jabbar",
+    "genre": "History, Politics & Geopolitics",
+    "description": "What Is Pakistaniat? by Javed Jabbar.",
+    "coverImage": "Images/Javed Jabbar What Is Pakistaniat.jpg",
+    "copies": 1,
+    "id": "What Is Pakistaniat?-86"
+  },
+  {
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx and Friedrich Engels",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The foundational political pamphlet outlining communist theory and class struggle.",
+    "coverImage": "Images/The Communist Manifesto.jpg",
+    "copies": 1,
+    "id": "The Communist Manifesto-87"
+  },
+  {
+    "title": "The End of India",
+    "author": "Khushwant Singh",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The End of India by Khushwant Singh.",
+    "coverImage": "Images/Khushwant Singh The End of India.jpg",
+    "copies": 1,
+    "id": "The End of India-88"
+  },
+  {
+    "title": "Freedom at Midnight",
+    "author": "Lapierre and Collins",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A narrative history of the end of British rule and the Partition of India.",
+    "coverImage": "Images/Freedom at Midnight.jpg",
+    "copies": 1,
+    "id": "Freedom at Midnight-89"
+  },
+  {
+    "title": "Pakistan Under Siege",
+    "author": "Madiha Afzal",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An examination of Pakistan's internal political, security, and social pressures.",
+    "coverImage": "Images/Pakistan Under Siege.jpg",
+    "copies": 1,
+    "id": "Pakistan Under Siege-90"
+  },
+  {
+    "title": "The 100",
+    "author": "Michael H. Hart",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The 100 by Michael H. Hart.",
+    "coverImage": "Images/Michael H. Hart The 100.jpg",
+    "copies": 1,
+    "id": "The 100-91"
+  },
+  {
+    "title": "The Clash of Civilizations",
+    "author": "Samuel Huntington",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The Clash of Civilizations by Samuel Huntington.",
+    "coverImage": "Images/Samuel Huntington The Clash of Civilizations.jpg",
+    "copies": 1,
+    "id": "The Clash of Civilizations-92"
+  },
+  {
+    "title": "Spin Dictators",
+    "author": "Sergei Guriev and Daniel Treisman",
+    "genre": "History, Politics & Geopolitics",
+    "description": "Spin Dictators by Sergei Guriev and Daniel Treisman.",
+    "coverImage": "Images/Sergei Guriev & Daniel Treisman Spin Dictators.jpg",
+    "copies": 1,
+    "id": "Spin Dictators-93"
+  },
+  {
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An ancient Chinese treatise on strategy, leadership, and military conflict.",
+    "coverImage": "Images/The Art of War.jpg",
+    "copies": 1,
+    "id": "The Art of War-94"
+  },
+  {
+    "title": "Pakistan Crossroads",
+    "author": "Tariq Rahman",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A study of Pakistan's political history and competing directions.",
+    "coverImage": "Images/Pakistan Crossroads.jpg",
+    "copies": 1,
+    "id": "Pakistan Crossroads-95"
+  },
+  {
+    "title": "Pakistan's Wars",
+    "author": "Tariq Rahman",
+    "genre": "History, Politics & Geopolitics",
+    "description": "A historical account of Pakistan's major wars and military conflicts.",
+    "coverImage": "Images/Pakistan's Wars.jpg",
+    "copies": 1,
+    "id": "Pakistan's Wars-96"
+  },
+  {
+    "title": "Pakistan at the Helm",
+    "author": "Tilak Devasher",
+    "genre": "History, Politics & Geopolitics",
+    "description": "Pakistan at the Helm by Tilak Devasher.",
+    "coverImage": "Images/Tilak Devasher Pakistan at the Helm.jpg",
+    "copies": 1,
+    "id": "Pakistan at the Helm-97"
+  },
+  {
+    "title": "The Pashtuns A Contested History",
+    "author": "Tilak Devasher",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The Pashtuns A Contested History by Tilak Devasher.",
+    "coverImage": "Images/Tilak Devasher The Pashtuns A Contested History.jpg",
+    "copies": 1,
+    "id": "The Pashtuns A Contested History-98"
+  },
+  {
+    "title": "The Future of Geography",
+    "author": "Tim Marshall",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An exploration of how geography will shape future global power.",
+    "coverImage": "Images/The Future of Geography.jpg",
+    "copies": 1,
+    "id": "The Future of Geography-99"
+  },
+  {
+    "title": "(eds.) Geo-Economics and Power Politics in the 21st Century",
+    "author": "Wigell, Scholvin and Aaltola",
+    "genre": "History, Politics & Geopolitics",
+    "description": "(eds.) Geo-Economics and Power Politics in the 21st Century by Wigell, Scholvin and Aaltola.",
+    "coverImage": "Images/Wigell, Scholvin & Aaltola (eds.) Geo-Economics and Power Politics in the 21st Century.jpg",
+    "copies": 1,
+    "id": "(eds.) Geo-Economics and Power Politics in the 21st Century-100"
+  },
+  {
+    "title": "The Siege of Mecca",
+    "author": "Yaroslav Trofimov",
+    "genre": "History, Politics & Geopolitics",
+    "description": "The Siege of Mecca by Yaroslav Trofimov.",
+    "coverImage": "Images/Yaroslav Trofimov The Siege of Mecca.jpg",
+    "copies": 1,
+    "id": "The Siege of Mecca-101"
+  },
+  {
+    "title": "The Security Imperative",
+    "author": "Zamir Akram",
+    "genre": "History, Politics & Geopolitics",
+    "description": "An analysis of Pakistan's nuclear deterrence policy and diplomatic strategy.",
+    "coverImage": "Images/The Security Imperative Pakistan's Nuclear Deterrence and Diplomacy.jpg",
+    "copies": 1,
+    "id": "The Security Imperative-102"
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Big Ideas & Science",
+    "description": "Stephen Hawking's accessible introduction to cosmology, black holes, space, and time.",
+    "coverImage": "Images/A Brief History of Time.jpg",
+    "copies": 1,
+    "id": "A Brief History of Time-103"
+  },
+  {
+    "title": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking",
+    "genre": "Big Ideas & Science",
+    "description": "Stephen Hawking's reflections on the universe, science, and humanity's future.",
+    "coverImage": "Images/Brief Answers to the Big Questions.jpg",
+    "copies": 1,
+    "id": "Brief Answers to the Big Questions-104"
+  },
+  {
+    "title": "The Grand Design",
+    "author": "Stephen Hawking and Leonard Mlodinow",
+    "genre": "Big Ideas & Science",
+    "description": "A popular science exploration of the universe's origins and the laws governing it.",
+    "coverImage": "Images/The Grand Design.jpg",
+    "copies": 1,
+    "id": "The Grand Design-105"
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "author": "Viktor Frankl",
+    "genre": "Big Ideas & Science",
+    "description": "Viktor Frankl's account of finding meaning amid suffering and imprisonment.",
+    "coverImage": "Images/man searching for meaning.jpg",
+    "copies": 1,
+    "id": "Man's Search for Meaning-106"
+  },
+  {
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "genre": "Big Ideas & Science",
+    "description": "A discussion of major political, technological, and social challenges of the present.",
+    "coverImage": "Images/21 lessoons from 21 century.png",
+    "copies": 1,
+    "id": "21 Lessons for the 21st Century-107"
+  },
+  {
+    "title": "Nexus",
+    "author": "Yuval Noah Harari",
+    "genre": "Big Ideas & Science",
+    "description": "Nexus by Yuval Noah Harari.",
+    "coverImage": "Images/Yuval Noah Harari Nexus.jpg",
+    "copies": 1,
+    "id": "Nexus-108"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "Big Ideas & Science",
+    "description": "A broad history of Homo sapiens from the Stone Age to the present.",
+    "coverImage": "Images/Sapiens.jpg",
+    "copies": 1,
+    "id": "Sapiens-109"
+  },
+  {
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "genre": "Philosophy",
+    "description": "A philosophical critique of traditional morality and assumptions about truth.",
+    "coverImage": "Images/Beyond Good and Evil.jpg",
+    "copies": 1,
+    "id": "Beyond Good and Evil-110"
+  },
+  {
+    "title": "The Story of Philosophy",
+    "author": "Will Durant",
+    "genre": "Philosophy",
+    "description": "The Story of Philosophy by Will Durant.",
+    "coverImage": "Images/Will Durant The Story of Philosophy.jpg",
+    "copies": 1,
+    "id": "The Story of Philosophy-111"
+  },
+  {
+    "title": "Black Beauty",
+    "author": "Anna Sewell",
+    "genre": "Literary & Classic Fiction",
+    "description": "A classic animal novel narrated by a horse named Black Beauty.",
+    "coverImage": "Images/Black Beauty.jpg",
+    "copies": 1,
+    "id": "Black Beauty-112"
+  },
+  {
+    "title": "The Extraordinary Cases of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "genre": "Literary & Classic Fiction",
+    "description": "A collection of classic detective mysteries featuring Sherlock Holmes.",
+    "coverImage": "Images/The Extraordinary Cases of Sherlock Holmes.jpg",
+    "copies": 1,
+    "id": "The Extraordinary Cases of Sherlock Holmes-113"
+  },
+  {
+    "title": "The Great Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "genre": "Literary & Classic Fiction",
+    "description": "A collection of classic detective adventures featuring Sherlock Holmes.",
+    "coverImage": "Images/The Great Adventures of Sherlock Holm.jpg",
+    "copies": 1,
+    "id": "The Great Adventures of Sherlock Holmes-114"
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "genre": "Literary & Classic Fiction",
+    "description": "A novel of sacrifice and revolution set in London and Paris.",
+    "coverImage": "Images/A Tale of Two Cities.jpg",
+    "copies": 1,
+    "id": "A Tale of Two Cities-115"
+  },
+  {
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "genre": "Literary & Classic Fiction",
+    "description": "A coming-of-age novel following David Copperfield's difficult journey to adulthood.",
+    "coverImage": "Images/David Copperfield.jpg",
+    "copies": 1,
+    "id": "David Copperfield-116"
+  },
+  {
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "genre": "Literary & Classic Fiction",
+    "description": "Great Expectations by Charles Dickens.",
+    "coverImage": "Images/Charles Dickens Great Expectations.jpg",
+    "copies": 1,
+    "id": "Great Expectations-117"
+  },
+  {
+    "title": "The Bastard of Istanbul",
+    "author": "Elif Shafak",
+    "genre": "Literary & Classic Fiction",
+    "description": "Bastard of Istanbul by Elif Shafak.",
+    "coverImage": "Images/Elif Shafak The Bastard of Istanbul.jpg",
+    "copies": 1,
+    "id": "The Bastard of Istanbul-118"
+  },
+  {
+    "title": "The Forty Rules of Love",
+    "author": "Elif Shafak",
+    "genre": "Literary & Classic Fiction",
+    "description": "A parallel story of love and spiritual transformation inspired by Rumi and Shams.",
+    "coverImage": "Images/The Forty Rules of Love.jpg",
+    "copies": 1,
+    "id": "The Forty Rules of Love-119"
+  },
+  {
+    "title": "The Gaze",
+    "author": "Elif Shafak",
+    "genre": "Literary & Classic Fiction",
+    "description": "A novel exploring identity, beauty, perception, and the ways people observe one another.",
+    "coverImage": "Images/The Gaze.jpg",
+    "copies": 1,
+    "id": "The Gaze-120"
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "genre": "Literary & Classic Fiction",
+    "description": "A surreal novella about Gregor Samsa's transformation and alienation.",
+    "coverImage": "Images/The Metamorphosis.jpg",
+    "copies": 1,
+    "id": "The Metamorphosis-121"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Literary & Classic Fiction",
+    "description": "Crime and Punishment by Fyodor Dostoevsky.",
+    "coverImage": "Images/Fyodor Dostoevsky Crime and Punishment.jpg",
+    "copies": 1,
+    "id": "Crime and Punishment-122"
+  },
+  {
+    "title": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Literary & Classic Fiction",
+    "description": "An existential novella narrated by an isolated and conflicted former civil servant.",
+    "coverImage": "Images/Notes from Underground.jpg",
+    "copies": 1,
+    "id": "Notes from Underground-123"
+  },
+  {
+    "title": "Notes from Underground 2",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Literary & Classic Fiction",
+    "description": "Notes from Underground 2 by Fyodor Dostoevsky.",
+    "coverImage": "Images/Fyodor Dostoevsky Notes from Underground 2.jpg",
+    "copies": 1,
+    "id": "Notes from Underground 2-124"
+  },
+  {
+    "title": "White Nights",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Literary & Classic Fiction",
+    "description": "White Nights by Fyodor Dostoevsky.",
+    "coverImage": "Images/Fyodor Dostoevsky White Nights.jpg",
+    "copies": 1,
+    "id": "White Nights-125"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Literary & Classic Fiction",
+    "description": "1984 by George Orwell.",
+    "coverImage": "Images/George Orwell 1984.jpg",
+    "copies": 1,
+    "id": "1984-126"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "genre": "Literary & Classic Fiction",
+    "description": "An allegorical satire about revolution, propaganda, and totalitarian power.",
+    "coverImage": "Images/Animal Farm.jpg",
+    "copies": 1,
+    "id": "Animal Farm-127"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Literary & Classic Fiction",
+    "description": "To Kill a Mockingbird by Harper Lee.",
+    "coverImage": "Images/Harper Lee To Kill a Mockingbird.jpg",
+    "copies": 1,
+    "id": "To Kill a Mockingbird-128"
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "genre": "Literary & Classic Fiction",
+    "description": "Captain Ahab's obsessive pursuit of the white whale Moby Dick.",
+    "coverImage": "Images/Moby Dick.jpg",
+    "copies": 1,
+    "id": "Moby Dick-129"
+  },
+  {
+    "title": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "genre": "Literary & Classic Fiction",
+    "description": "A satirical voyage following Lemuel Gulliver through extraordinary lands and encounters.",
+    "coverImage": "Images/gulliver's travels.jpg",
+    "copies": 1,
+    "id": "Gulliver's Travels-130"
+  },
+  {
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini",
+    "genre": "Literary & Classic Fiction",
+    "description": "A novel about friendship, family, and survival in war-torn Afghanistan.",
+    "coverImage": "Images/A Thousand Splendid Suns.jpg",
+    "copies": 1,
+    "id": "A Thousand Splendid Suns-131"
+  },
+  {
+    "title": "And the Mountains Echoed",
+    "author": "Khaled Hosseini",
+    "genre": "Literary & Classic Fiction",
+    "description": "A multigenerational family saga about love, separation, and sacrifice.",
+    "coverImage": "Images/And the Mountains Echoed.jpg",
+    "copies": 1,
+    "id": "And the Mountains Echoed-132"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "genre": "Literary & Classic Fiction",
+    "description": "The Kite Runner by Khaled Hosseini.",
+    "coverImage": "Images/Khaled Hosseini The Kite Runner.jpg",
+    "copies": 1,
+    "id": "The Kite Runner-133"
+  },
+  {
+    "title": "Train to Pakistan",
+    "author": "Khushwant Singh",
+    "genre": "Literary & Classic Fiction",
+    "description": "A classic novel depicting the human cost of the Partition of India.",
+    "coverImage": "Images/Train to Pakistan.jpg",
+    "copies": 1,
+    "id": "Train to Pakistan-134"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "author": "L. Frank Baum",
+    "genre": "Literary & Classic Fiction",
+    "description": "A fantasy adventure following Dorothy through the magical land of Oz.",
+    "coverImage": "Images/The Wizard of Oz.jpg",
+    "copies": 1,
+    "id": "The Wizard of Oz-135"
+  },
+  {
+    "title": "Berlin Game",
+    "author": "Len Deighton",
+    "genre": "Literary & Classic Fiction",
+    "description": "A Cold War espionage thriller about betrayal and intelligence operations.",
+    "coverImage": "Images/Berlin Game.jpg",
+    "copies": 1,
+    "id": "Berlin Game-136"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "genre": "Literary & Classic Fiction",
+    "description": "The Song of Achilles by Madeline Miller.",
+    "coverImage": "Images/Madeline Miller The Song of Achilles.jpg",
+    "copies": 1,
+    "id": "The Song of Achilles-137"
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "genre": "Literary & Classic Fiction",
+    "description": "Personal Stoic reflections on virtue, discipline, duty, and accepting what cannot be changed.",
+    "coverImage": "Images/Meditations.jpg",
+    "copies": 1,
+    "id": "Meditations-138"
+  },
+  {
+    "title": "The Godfather",
+    "author": "Mario Puzo",
+    "genre": "Literary & Classic Fiction",
+    "description": "A crime novel about the Corleone family and the world of organized crime.",
+    "coverImage": "Images/The Godfather.jpg",
+    "copies": 1,
+    "id": "The Godfather-139"
+  },
+  {
+    "title": "The Stationery Shop of Tehran",
+    "author": "Marjan Kamali",
+    "genre": "Literary & Classic Fiction",
+    "description": "The Stationery Shop of Tehran by Marjan Kamali.",
+    "coverImage": "Images/Marjan Kamali The Stationery Shop of Tehran.jpg",
+    "copies": 1,
+    "id": "The Stationery Shop of Tehran-140"
+  },
+  {
+    "title": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "genre": "Literary & Classic Fiction",
+    "description": "A historical adventure about two boys who exchange identities.",
+    "coverImage": "Images/The Prince and the Pauper.jpg",
+    "copies": 1,
+    "id": "The Prince and the Pauper-141"
+  },
+  {
+    "title": "A Case of Exploding Mangoes",
+    "author": "Mohammed Hanif",
+    "genre": "Literary & Classic Fiction",
+    "description": "A satirical novel about the mysterious death of General Zia and Pakistan's political world.",
+    "coverImage": "Images/A Case of Exploding Mangoes.jpg",
+    "copies": 1,
+    "id": "A Case of Exploding Mangoes-142"
+  },
+  {
+    "title": "The Prince",
+    "author": "Niccolo Machiavelli",
+    "genre": "Literary & Classic Fiction",
+    "description": "A political treatise on power, leadership, and ruling effectively.",
+    "coverImage": "Images/The Prince.jpg",
+    "copies": 1,
+    "id": "The Prince-143"
+  },
+  {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "genre": "Literary & Classic Fiction",
+    "description": "No Longer Human by Osamu Dazai.",
+    "coverImage": "Images/Osamu Dazai No Longer Human.jpg",
+    "copies": 1,
+    "id": "No Longer Human-144"
+  },
+  {
+    "title": "The Setting Sun",
+    "author": "Osamu Dazai",
+    "genre": "Literary & Classic Fiction",
+    "description": "The Setting Sun by Osamu Dazai.",
+    "coverImage": "Images/Osamu Dazai The Setting Sun.jpg",
+    "copies": 1,
+    "id": "The Setting Sun-145"
+  },
+  {
+    "title": "Eleven Minutes",
+    "author": "Paulo Coelho",
+    "genre": "Literary & Classic Fiction",
+    "description": "A novel about love, desire, and self-discovery.",
+    "coverImage": "Images/Eleven Minutes.jpg",
+    "copies": 1,
+    "id": "Eleven Minutes-146"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Literary & Classic Fiction",
+    "description": "An allegorical novel about a shepherd who follows his dreams in search of treasure and purpose.",
+    "coverImage": "Images/The Alchemist.jpg",
+    "copies": 1,
+    "id": "The Alchemist-147"
+  },
+  {
+    "title": "A Clash of Kings",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "description": "The second novel in A Song of Ice and Fire, following rival claimants during a civil war.",
+    "coverImage": "Images/A Clash of Kings.jpg",
+    "copies": 1,
+    "id": "A Clash of Kings-148"
+  },
+  {
+    "title": "A Dance with Dragons, Part 1: Dreams and Dust",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "description": "A Dance with Dragons, Part 1: Dreams and Dust by George R.R. Martin.",
+    "coverImage": "Images/dance wtih dragon has part 1(Dreams and dust).jpg",
+    "copies": 1,
+    "id": "A Dance with Dragons, Part 1: Dreams and Dust-149"
+  },
+  {
+    "title": "A Dance with Dragons, Part 2: After the Feast",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "description": "A Dance with Dragons, Part 2: After the Feast by George R.R. Martin.",
+    "coverImage": "Images/dance wtih dragon has part 2(After the feast).jpg",
+    "copies": 1,
+    "id": "A Dance with Dragons, Part 2: After the Feast-150"
+  },
+  {
+    "title": "A Storm of Swords, Part 2: Blood and Gold",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "description": "A Storm of Swords, Part 2: Blood and Gold by George R.R. Martin.",
+    "coverImage": "Images/strom of swords has part 2(Blood and gold ).jpg",
+    "copies": 1,
+    "id": "A Storm of Swords, Part 2: Blood and Gold-151"
+  },
+  {
+    "title": "Fevre Dream",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "description": "A historical vampire novel set aboard a nineteenth-century Mississippi steamboat.",
+    "coverImage": "Images/Fevre Dream.jpg",
+    "copies": 1,
+    "id": "Fevre Dream-152"
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A psychological thriller about a woman who stops speaking after a shocking crime.",
+    "coverImage": "Images/The Silent Patient.jpg",
+    "copies": 1,
+    "id": "The Silent Patient-153"
+  },
+  {
+    "title": "Twisted Games",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Games by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Games.jpg",
+    "copies": 1,
+    "id": "Twisted Games-154"
+  },
+  {
+    "title": "Twisted Games",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Games by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Games.jpg",
+    "copies": 1,
+    "id": "Twisted Games-155"
+  },
+  {
+    "title": "Twisted Hate",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Hate by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Hate.jpg",
+    "copies": 1,
+    "id": "Twisted Hate-156"
+  },
+  {
+    "title": "Twisted Hate",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Hate by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Hate.jpg",
+    "copies": 1,
+    "id": "Twisted Hate-157"
+  },
+  {
+    "title": "Twisted Lies",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Lies by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Lies.jpg",
+    "copies": 1,
+    "id": "Twisted Lies-158"
+  },
+  {
+    "title": "Twisted Lies",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Lies by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Lies.jpg",
+    "copies": 1,
+    "id": "Twisted Lies-159"
+  },
+  {
+    "title": "Twisted Love",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Love by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Love.jpg",
+    "copies": 1,
+    "id": "Twisted Love-160"
+  },
+  {
+    "title": "Twisted Love",
+    "author": "Ana Huang",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Twisted Love by Ana Huang.",
+    "coverImage": "Images/Ana Huang Twisted Love.jpg",
+    "copies": 1,
+    "id": "Twisted Love-161"
+  },
+  {
+    "title": "It Ends with Us",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A contemporary romance about love, difficult choices, and breaking cycles of abuse.",
+    "coverImage": "Images/It Ends with Us.jpg",
+    "copies": 1,
+    "id": "It Ends with Us-162"
+  },
+  {
+    "title": "It Starts with Us",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The follow-up to It Ends with Us, continuing Lily and Atlas's story.",
+    "coverImage": "Images/It Starts with Us.jpg",
+    "copies": 1,
+    "id": "It Starts with Us-163"
+  },
+  {
+    "title": "Maybe Now",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Maybe Now by Colleen Hoover.",
+    "coverImage": "Images/Colleen Hoover Maybe Now.jpg",
+    "copies": 1,
+    "id": "Maybe Now-164"
+  },
+  {
+    "title": "Reminders of Him",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A woman seeks redemption and a chance to reconnect with her daughter.",
+    "coverImage": "Images/Reminders of Him.jpg",
+    "copies": 1,
+    "id": "Reminders of Him-165"
+  },
+  {
+    "title": "Ugly Love",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A contemporary romance about grief, guarded hearts, and complicated love.",
+    "coverImage": "Images/Ugly Love.jpg",
+    "copies": 1,
+    "id": "Ugly Love-166"
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A psychological thriller about an unfinished manuscript and its disturbing secrets.",
+    "coverImage": "Images/Verity.jpg",
+    "copies": 1,
+    "id": "Verity-167"
+  },
+  {
+    "title": "The Housemaid",
+    "author": "Freida McFadden",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The Housemaid by Freida McFadden.",
+    "coverImage": "Images/Freida McFadden The Housemaid.jpg",
+    "copies": 1,
+    "id": "The Housemaid-168"
+  },
+  {
+    "title": "The Housemaid Is Watching",
+    "author": "Freida McFadden",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The Housemaid Is Watching by Freida McFadden.",
+    "coverImage": "Images/Freida McFadden The Housemaid Is Watching.jpg",
+    "copies": 1,
+    "id": "The Housemaid Is Watching-169"
+  },
+  {
+    "title": "The Housemaid's Secret",
+    "author": "Freida McFadden",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The Housemaid's Secret by Freida McFadden.",
+    "coverImage": "Images/Freida McFadden The Housemaid's Secret.jpg",
+    "copies": 1,
+    "id": "The Housemaid's Secret-170"
+  },
+  {
+    "title": "The Housemaid's Wedding",
+    "author": "Freida McFadden",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The Housemaid's Wedding by Freida McFadden.",
+    "coverImage": "Images/Freida McFadden The Housemaid's Wedding.jpg",
+    "copies": 1,
+    "id": "The Housemaid's Wedding-171"
+  },
+  {
+    "title": "Someone Up There Hates You",
+    "author": "Hollis Seamon",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A coming-of-age novel about a young man facing illness, friendship, love, and the uncertainty of life.",
+    "coverImage": "Images/somebody up there hates you.jpg",
+    "copies": 1,
+    "id": "Someone Up There Hates You-172"
+  },
+  {
+    "title": "A Good Girl's Guide to Murder",
+    "author": "Holly Jackson",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A Good Girl's Guide to Murder by Holly Jackson.",
+    "coverImage": "Images/Holly Jackson A Good Girl's Guide to Murder.jpg",
+    "copies": 1,
+    "id": "A Good Girl's Guide to Murder-173"
+  },
+  {
+    "title": "As Good as Dead",
+    "author": "Holly Jackson",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "As Good as Dead by Holly Jackson.",
+    "coverImage": "Images/Holly Jackson As Good as Dead.jpg",
+    "copies": 1,
+    "id": "As Good as Dead-174"
+  },
+  {
+    "title": "Good Girl, Bad Blood",
+    "author": "Holly Jackson",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Good Girl, Bad Blood by Holly Jackson.",
+    "coverImage": "Images/Holly Jackson Good Girl, Bad Blood.jpg",
+    "copies": 1,
+    "id": "Good Girl, Bad Blood-175"
+  },
+  {
+    "title": "Then She Was Gone",
+    "author": "Lisa Jewell",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Then She Was Gone by Lisa Jewell.",
+    "coverImage": "Images/Lisa Jewell Then She Was Gone.jpg",
+    "copies": 1,
+    "id": "Then She Was Gone-176"
+  },
+  {
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A psychological thriller about a commuter who becomes entangled in a missing-person mystery.",
+    "coverImage": "Images/The Girl on the Train.jpg",
+    "copies": 1,
+    "id": "The Girl on the Train-177"
+  },
+  {
+    "title": "I Don't Love You Anymore",
+    "author": "Rithvik Singh",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "I Don't Love You Anymore by Rithvik Singh.",
+    "coverImage": "Images/Rithvik Singh I Don't Love You Anymore.jpg",
+    "copies": 1,
+    "id": "I Don't Love You Anymore-178"
+  },
+  {
+    "title": "Warmth",
+    "author": "Rithvik Singh",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Warmth by Rithvik Singh.",
+    "coverImage": "Images/Rithvik Singh Warmth.jpg",
+    "copies": 1,
+    "id": "Warmth-179"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The Girl with the Dragon Tattoo by Stieg Larsson.",
+    "coverImage": "Images/Stieg Larsson The Girl with the Dragon Tattoo.jpg",
+    "copies": 1,
+    "id": "The Girl with the Dragon Tattoo-180"
+  },
+  {
+    "title": "Shatter Me",
+    "author": "Tahereh Mafi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "A young adult dystopian romance about a girl whose touch is lethal.",
+    "coverImage": "Images/Shatter Me.jpg",
+    "copies": 1,
+    "id": "Shatter Me-181"
+  },
+  {
+    "title": "Unite Me",
+    "author": "Tahereh Mafi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Companion novellas expanding the characters and events of the Shatter Me series.",
+    "coverImage": "Images/Unite me.jpg",
+    "copies": 1,
+    "id": "Unite Me-182"
+  },
+  {
+    "title": "Before I Knew I Loved You",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "The sixth book in the Before the Coffee Gets Cold series, centered on love and memory.",
+    "coverImage": "Images/Before i knew i love you.jpg",
+    "copies": 1,
+    "id": "Before I Knew I Loved You-183"
+  },
+  {
+    "title": "Before We Forget Kindness",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Before We Forget Kindness by Toshikazu Kawaguchi.",
+    "coverImage": "Images/Toshikazu Kawaguchi Before We Forget Kindness.jpg",
+    "copies": 1,
+    "id": "Before We Forget Kindness-184"
+  },
+  {
+    "title": "Before We Say Goodbye",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Before We Say Goodbye by Toshikazu Kawaguchi.",
+    "coverImage": "Images/Toshikazu Kawaguchi Before We Say Goodbye.jpg",
+    "copies": 1,
+    "id": "Before We Say Goodbye-185"
+  },
+  {
+    "title": "Before We Say Goodbye",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Before We Say Goodbye by Toshikazu Kawaguchi.",
+    "coverImage": "Images/Toshikazu Kawaguchi Before We Say Goodbye.jpg",
+    "copies": 1,
+    "id": "Before We Say Goodbye-186"
+  },
+  {
+    "title": "Before Your Memory Fades",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Before Your Memory Fades by Toshikazu Kawaguchi.",
+    "coverImage": "Images/Toshikazu Kawaguchi Before Your Memory Fades.jpg",
+    "copies": 1,
+    "id": "Before Your Memory Fades-187"
+  },
+  {
+    "title": "Before Your Memory Fades",
+    "author": "Toshikazu Kawaguchi",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "Before Your Memory Fades by Toshikazu Kawaguchi.",
+    "coverImage": "Images/Toshikazu Kawaguchi Before Your Memory Fades.jpg",
+    "copies": 1,
+    "id": "Before Your Memory Fades-188"
+  },
+  {
+    "title": "As Long as the Lemon Trees Grow",
+    "author": "Zoulfa Katouh",
+    "genre": "Contemporary Fiction, Thriller & Romance",
+    "description": "As Long as the Lemon Trees Grow by Zoulfa Katouh.",
+    "coverImage": "Images/Zoulfa Katouh As Long as the Lemon Trees Grow.jpg",
+    "copies": 1,
+    "id": "As Long as the Lemon Trees Grow-189"
+  },
+  {
+    "title": "Five Run Away Together",
+    "author": "Enid Blyton",
+    "genre": "Children's & YA",
+    "description": "The Famous Five investigate danger and secrets during an isolated holiday.",
+    "coverImage": "Images/famous five.jpg",
+    "copies": 1,
+    "id": "Five Run Away Together-190"
+  },
+  {
+    "title": "Horrid Henry",
+    "author": "Francesca Simon",
+    "genre": "Children's & YA",
+    "description": "A mischievous boy's comic adventures and schemes at home and school.",
+    "coverImage": "Images/Horrid Henry.jpg",
+    "copies": 1,
+    "id": "Horrid Henry-191"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J.K. Rowling",
+    "genre": "Children's & YA",
+    "description": "The second Harry Potter novel, in which a hidden chamber threatens Hogwarts students.",
+    "coverImage": "Images/Harry Potter and the Chamber of Secrets.jpg",
+    "copies": 1,
+    "id": "Harry Potter and the Chamber of Secrets-192"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J.K. Rowling",
+    "genre": "Children's & YA",
+    "description": "The fourth Harry Potter novel, featuring the dangerous Triwizard Tournament.",
+    "coverImage": "Images/Harry Potter and the Goblet of Fire J.K. Rowling.jpg",
+    "copies": 1,
+    "id": "Harry Potter and the Goblet of Fire-193"
+  },
+  {
+    "title": "Diary of a Wimpy Kid: Hard Luck",
+    "author": "Jeff Kinney",
+    "genre": "Children's & YA",
+    "description": "A Wimpy Kid story about Greg's changing friendships and unlucky attempts to fit in.",
+    "coverImage": "Images/Diary of a Wimpy Kid Hard Luck.jpg",
+    "copies": 1,
+    "id": "Diary of a Wimpy Kid: Hard Luck-194"
+  },
+  {
+    "title": "Diary of a Wimpy Kid: Rodrick Rules",
+    "author": "Jeff Kinney",
+    "genre": "Children's & YA",
+    "description": "Greg Heffley struggles to survive a new school year and his troublesome older brother.",
+    "coverImage": "Images/Diary of a Wimpy Kid Rodrick Rules.jpg",
+    "copies": 1,
+    "id": "Diary of a Wimpy Kid: Rodrick Rules-195"
+  },
+  {
+    "title": "Diary of a Wimpy Kid: The Meltdown",
+    "author": "Jeff Kinney",
+    "genre": "Children's & YA",
+    "description": "A Wimpy Kid adventure that begins when a snowball fight turns into a neighborhood battle.",
+    "coverImage": "Images/Diary of a Wimpy Kid The Meltdown.jpg",
+    "copies": 1,
+    "id": "Diary of a Wimpy Kid: The Meltdown-196"
+  },
+  {
+    "title": "Diary of a Wimpy Kid: The Third Wheel",
+    "author": "Jeff Kinney",
+    "genre": "Children's & YA",
+    "description": "Greg navigates friendship and romance when a school dance approaches.",
+    "coverImage": "Images/Diary of a Wimpy Kid The Third Wheel.jpg",
+    "copies": 1,
+    "id": "Diary of a Wimpy Kid: The Third Wheel-197"
+  },
+  {
+    "title": "Bridge to Terabithia",
+    "author": "Katherine Paterson",
+    "genre": "Children's & YA",
+    "description": "Bridge to Terabithia by Katherine Paterson.",
+    "coverImage": "Images/Katherine Paterson Bridge to Terabithia.jpg",
+    "copies": 1,
+    "id": "Bridge to Terabithia-198"
+  },
+  {
+    "title": "NERDS: M Is for Mama's Boy",
+    "author": "Michael Buckley",
+    "genre": "Children's & YA",
+    "description": "A group of unlikely young spies takes on dangerous missions.",
+    "coverImage": "Images/NERDS Buckley m for michael.jpg",
+    "copies": 1,
+    "id": "NERDS: M Is for Mama's Boy-199"
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "author": "Movie Novelization",
+    "genre": "Children's & YA",
+    "description": "A novelization of the Spider-Man: Homecoming film.",
+    "coverImage": "Images/Spider-Man Homecoming.jpg",
+    "copies": 1,
+    "id": "Spider-Man: Homecoming-200"
+  },
+  {
+    "title": "Beastly Creatures",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "A humorous poetry collection about outrageous and mischievous creatures.",
+    "coverImage": "Images/Dirty Beasts.jpg",
+    "copies": 1,
+    "id": "Beastly Creatures-201"
+  },
+  {
+    "title": "Charlie and the Chocolate Factory",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "Charlie Bucket wins a tour of Willy Wonka's extraordinary chocolate factory.",
+    "coverImage": "Images/Charlie and the Chocolate Factory.jpg",
+    "copies": 1,
+    "id": "Charlie and the Chocolate Factory-202"
+  },
+  {
+    "title": "Charlie and the Great Glass Elevator",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "Charlie and his family travel through space in Willy Wonka's glass elevator.",
+    "coverImage": "Images/Charlie and the Great Glass Elevator.jpg",
+    "copies": 1,
+    "id": "Charlie and the Great Glass Elevator-203"
+  },
+  {
+    "title": "Esio Trot",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "Esio Trot by Roald Dahl.",
+    "coverImage": "Images/Roald Dahl Esio Trot.jpg",
+    "copies": 1,
+    "id": "Esio Trot-204"
+  },
+  {
+    "title": "Going Solo",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "Roald Dahl's autobiographical account of his wartime and aviation adventures.",
+    "coverImage": "Images/Going Solo.jpg",
+    "copies": 1,
+    "id": "Going Solo-205"
+  },
+  {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "A gifted girl uses her intelligence and courage to stand up to cruel adults.",
+    "coverImage": "Images/Matilda.jpg",
+    "copies": 1,
+    "id": "Matilda-206"
+  },
+  {
+    "title": "Spotty Powder and Other Splendiferous Secrets",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "A collection of humorous stories, recipes, inventions, and secrets from Roald Dahl.",
+    "coverImage": "Images/Spotty Powder and Other Splendiferous Secrets.jpg",
+    "copies": 1,
+    "id": "Spotty Powder and Other Splendiferous Secrets-207"
+  },
+  {
+    "title": "The BFG",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "A young girl befriends a gentle giant who catches and delivers dreams.",
+    "coverImage": "Images/The BFG.jpg",
+    "copies": 1,
+    "id": "The BFG-208"
+  },
+  {
+    "title": "The Witches",
+    "author": "Roald Dahl",
+    "genre": "Children's & YA",
+    "description": "A boy discovers a secret society of witches who despise children.",
+    "coverImage": "Images/The Witches.jpg",
+    "copies": 1,
+    "id": "The Witches-209"
+  },
+  {
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "genre": "Children's & YA",
+    "description": "Jim Hawkins joins a dangerous voyage in search of buried pirate treasure.",
+    "coverImage": "Images/Treasure Island.jpg",
+    "copies": 1,
+    "id": "Treasure Island-210"
+  },
+  {
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "genre": "Children's & YA",
+    "description": "Jim Hawkins joins a dangerous voyage in search of buried pirate treasure.",
+    "coverImage": "Images/Treasure Island.jpg",
+    "copies": 1,
+    "id": "Treasure Island-211"
+  },
+  {
+    "title": "My Barmy Aunt Boomerang Bounces Back",
+    "author": "Rose Impey",
+    "genre": "Children's & YA",
+    "description": "A children's comedy about an eccentric aunt and her chaotic adventures.",
+    "coverImage": "Images/My Barmy Aunt Boomerang Bounces Back.jpg",
+    "copies": 1,
+    "id": "My Barmy Aunt Boomerang Bounces Back-212"
+  },
+  {
+    "title": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "genre": "Children's & YA",
+    "description": "Classic stories about Mowgli and the animals of the Indian jungle.",
+    "coverImage": "Images/he Jungle Book.jpg",
+    "copies": 1,
+    "id": "The Jungle Book-213"
+  },
+  {
+    "title": "Attack of the Vikings",
+    "author": "Tony Bradman",
+    "genre": "Children's & YA",
+    "description": "A young reader's historical adventure involving Viking raiders.",
+    "coverImage": "Images/Attack of the Vikings.jpg",
+    "copies": 1,
+    "id": "Attack of the Vikings-214"
+  },
+  {
+    "title": "Secrets of Divine Love",
+    "author": "A. Helwa",
+    "genre": "Religious & Spiritual",
+    "description": "An accessible reflection on Islamic spirituality and love of God.",
+    "coverImage": "Images/Secrets of Divine Love.jpg",
+    "copies": 1,
+    "id": "Secrets of Divine Love-215"
+  },
+  {
+    "title": "The Reconstruction of Religious Thought in Islam",
+    "author": "Allama Muhammad Iqbal",
+    "genre": "Religious & Spiritual",
+    "description": "The Reconstruction of Religious Thought in Islam by Allama Muhammad Iqbal.",
+    "coverImage": "Images/Allama Muhammad Iqbal The Reconstruction of Religious Thought in Islam.jpg",
+    "copies": 1,
+    "id": "The Reconstruction of Religious Thought in Islam-216"
+  },
+  {
+    "title": "Rumi: Bridge to the Soul",
+    "author": "Coleman Barks",
+    "genre": "Religious & Spiritual",
+    "description": "A collection and interpretation of Rumi's poetry, music, and spiritual ideas.",
+    "coverImage": "Images/Rumi Bridge to the Soul.jpg",
+    "copies": 1,
+    "id": "Rumi: Bridge to the Soul-217"
+  },
+  {
+    "title": "Lessons from History",
+    "author": "Dr. Israr Ahmed",
+    "genre": "Religious & Spiritual",
+    "description": "Lessons from History by Dr. Israr Ahmed.",
+    "coverImage": "Images/dr israr ahmed book lessons from history.jpg",
+    "copies": 1,
+    "id": "Lessons from History-218"
+  },
+  {
+    "title": "Repentance",
+    "author": "Omar Suleiman",
+    "genre": "Religious & Spiritual",
+    "description": "An Islamic reflection on returning to God through sincere repentance.",
+    "coverImage": "Images/Book of the Film (Repentance).jpg",
+    "copies": 1,
+    "id": "Repentance-219"
+  },
+  {
+    "title": "Reclaim Your Heart",
+    "author": "Yasmin Mogahed",
+    "genre": "Religious & Spiritual",
+    "description": "Islamic spiritual reflections on healing, attachment, and inner freedom.",
+    "coverImage": "Images/Reclaim Your Heart.jpg",
+    "copies": 1,
+    "id": "Reclaim Your Heart-220"
+  }
 ]

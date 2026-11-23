@@ -19,17 +19,8 @@ const elements = {
   modalClose: document.querySelector(".modal-close"),
 };
 
-const COVER_CACHE_STORAGE_KEY = "my-library-google-covers-v1";
-const MAX_CONCURRENT_COVER_REQUESTS = 3;
-const COVER_REQUEST_GAP_MS = 220;
 let allBooks = [];
 let filteredBooks = [];
-const coverCache = new Map(loadPersistedCoverEntries());
-const activeFetches = new Map();
-const coverRequestQueue = [];
-let activeCoverRequests = 0;
-let nextAllowedRequestAt = 0;
-
 init();
 
 async function init() {
@@ -47,6 +38,7 @@ async function init() {
       genre: book.genre || "Uncategorized",
       description: book.description || "No description provided.",
       coverImage: book.coverImage || "",
+      copies: book.copies ?? 1,
     }));
 
   } catch {
@@ -144,114 +136,18 @@ function setImageSource(imageElement, source, book) {
   imageElement.src = source;
 }
 
-async function loadBookCover(book, imageElement) {
+function loadBookCover(book, imageElement) {
   if (book.coverImage) {
     setImageSource(imageElement, book.coverImage, book);
-    return;
-  }
-
-  const cacheKey = `${book.title}::${book.author}`.toLowerCase();
-  if (coverCache.has(cacheKey)) {
-    setImageSource(imageElement, coverCache.get(cacheKey), book);
-    return;
-  }
-
-  if (activeFetches.has(cacheKey)) {
-    setImageSource(imageElement, await activeFetches.get(cacheKey), book);
-    return;
-  }
-
-  const fetchPromise = enqueueCoverRequest(() => fetchGoogleBookCoverWithRetry(book))
-    .then((url) => {
-      const coverUrl = url || createPlaceholderCover(book.title);
-      coverCache.set(cacheKey, coverUrl);
-      if (url) {
-        persistCoverCacheEntry(cacheKey, coverUrl);
-      }
-      return coverUrl;
-    })
-    .finally(() => activeFetches.delete(cacheKey));
-
-  activeFetches.set(cacheKey, fetchPromise);
-
-  try {
-    setImageSource(imageElement, await fetchPromise, book);
-  } catch {
+  } else {
     setImageSource(imageElement, createPlaceholderCover(book.title), book);
   }
 }
-
 function setCoverFallback(imageElement, book) {
   imageElement.onerror = () => {
     imageElement.onerror = null;
     setImageSource(imageElement, createPlaceholderCover(book.title), book);
   };
-}
-
-function enqueueCoverRequest(task) {
-  return new Promise((resolve, reject) => {
-    coverRequestQueue.push({ task, resolve, reject });
-    pumpCoverQueue();
-  });
-}
-
-function pumpCoverQueue() {
-  if (!coverRequestQueue.length || activeCoverRequests >= MAX_CONCURRENT_COVER_REQUESTS) {
-    return;
-  }
-
-  const delayMs = Math.max(0, nextAllowedRequestAt - Date.now());
-  if (delayMs > 0) {
-    setTimeout(pumpCoverQueue, delayMs);
-    return;
-  }
-
-  const queued = coverRequestQueue.shift();
-  activeCoverRequests += 1;
-  nextAllowedRequestAt = Date.now() + COVER_REQUEST_GAP_MS;
-  queued.task().then(queued.resolve, queued.reject).finally(() => {
-    activeCoverRequests -= 1;
-    pumpCoverQueue();
-  });
-}
-
-async function fetchGoogleBookCoverWithRetry(book, maxAttempts = 3) {
-  const query = `intitle:${String(book.title).replaceAll("*", " ")} inauthor:${book.author}`;
-  const endpoint = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&maxResults=5`;
-
-  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-    try {
-      const response = await fetch(endpoint);
-      if (!response.ok) {
-        if ((response.status === 429 || response.status >= 500) && attempt < maxAttempts) {
-          await wait(attempt * 900);
-          continue;
-        }
-        return null;
-      }
-
-      const data = await response.json();
-      const thumbnail = extractThumbnail(data);
-      if (!thumbnail) return null;
-      const coverUrl = new URL(thumbnail);
-      coverUrl.protocol = "https:";
-      return coverUrl.toString();
-    } catch {
-      if (attempt === maxAttempts) return null;
-      await wait(attempt * 900);
-    }
-  }
-
-  return null;
-}
-
-function extractThumbnail(data) {
-  for (const item of data?.items || []) {
-    const links = item?.volumeInfo?.imageLinks;
-    if (links?.thumbnail) return links.thumbnail;
-    if (links?.smallThumbnail) return links.smallThumbnail;
-  }
-  return null;
 }
 
 let lastFocusedElement;
@@ -295,9 +191,9 @@ function updateCounters(books) {
     result[book.genre] = (result[book.genre] || 0) + 1;
     return result;
   }, {});
+
   renderGenreCounts(counts);
 }
-
 function renderGenreCounts(counts) {
   elements.genreCounts.replaceChildren();
   for (const genre of Object.keys(counts).sort((a, b) => a.localeCompare(b))) {
@@ -310,29 +206,6 @@ function renderGenreCounts(counts) {
     chip.append(name, count);
     elements.genreCounts.appendChild(chip);
   }
-}
-
-function loadPersistedCoverEntries() {
-  try {
-    const value = JSON.parse(localStorage.getItem(COVER_CACHE_STORAGE_KEY) || "{}");
-    return Object.entries(value);
-  } catch {
-    return [];
-  }
-}
-
-function persistCoverCacheEntry(key, value) {
-  try {
-    const current = Object.fromEntries(loadPersistedCoverEntries());
-    current[key] = value;
-    localStorage.setItem(COVER_CACHE_STORAGE_KEY, JSON.stringify(current));
-  } catch {
-    // Storage can be unavailable in restricted browser contexts.
-  }
-}
-
-function wait(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function createPlaceholderCover(text) {
