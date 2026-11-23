@@ -23,6 +23,29 @@ let allBooks = [];
 let filteredBooks = [];
 init();
 
+function groupDuplicateBooks(books) {
+  const groups = new Map();
+
+  for (const book of books) {
+    const key = JSON.stringify([
+      book.title.toLocaleLowerCase(),
+      book.author.toLocaleLowerCase(),
+      book.coverImage,
+    ]);
+    if (groups.has(key)) {
+      const existing = groups.get(key);
+      existing.copies += book.copies || 1;
+    } else {
+      groups.set(key, {
+        ...book,
+        copies: book.copies || 1,
+      });
+    }
+  }
+
+  return [...groups.values()];
+}
+
 async function init() {
   try {
     const response = await fetch("books.json", { cache: "no-store" });
@@ -40,6 +63,7 @@ async function init() {
       coverImage: book.coverImage || "",
       copies: book.copies ?? 1,
     }));
+    allBooks = groupDuplicateBooks(allBooks);
 
   } catch {
     allBooks = [];
@@ -99,7 +123,9 @@ function renderBooks(books) {
   elements.bookGrid.replaceChildren();
   elements.emptyState.hidden = books.length !== 0;
   elements.visibleBooks.textContent = String(books.length);
-  elements.footerCount.textContent = String(allBooks.length);
+  elements.footerCount.textContent = String(
+    allBooks.reduce((total, book) => total + (book.copies || 1), 0)
+  );
 
   books.forEach((book, index) => {
     elements.bookGrid.appendChild(createBookCard(book, index));
@@ -114,6 +140,8 @@ function createBookCard(book, index) {
   genrePill.textContent = book.genre;
   card.querySelector(".book-title").textContent = book.title;
   card.querySelector(".book-author").textContent = book.author;
+  card.querySelector(".copy-count").textContent =
+    `${book.copies || 1} ${(book.copies || 1) === 1 ? "Copy" : "Copies"}`;
   cover.alt = `Cover of ${book.title}`;
   cover.loading = index < 6 ? "eager" : "lazy";
   cover.decoding = "async";
@@ -183,12 +211,13 @@ function handleKeyboardShortcuts(event) {
 }
 
 function updateCounters(books) {
-  elements.totalBooks.textContent = String(allBooks.length);
-  elements.footerCount.textContent = String(allBooks.length);
+  const totalCopies = allBooks.reduce((total, book) => total + (book.copies || 1), 0);
+  elements.totalBooks.textContent = String(totalCopies);
+  elements.footerCount.textContent = String(totalCopies);
   elements.visibleBooks.textContent = String(books.length);
 
   const counts = allBooks.reduce((result, book) => {
-    result[book.genre] = (result[book.genre] || 0) + 1;
+    result[book.genre] = (result[book.genre] || 0) + (book.copies || 1);
     return result;
   }, {});
 
